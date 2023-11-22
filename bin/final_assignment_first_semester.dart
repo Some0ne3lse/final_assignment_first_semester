@@ -1,5 +1,16 @@
-import 'package:final_assignment_first_semester/final_assignment_first_semester.dart' as final_assignment_first_semester;
+import 'dart:io';
 
-void main(List<String> arguments) {
-  print('Hello world: ${final_assignment_first_semester.calculate()}!');
+import 'package:final_assignment_first_semester/commands/intro_selection.dart';
+import 'package:final_assignment_first_semester/functions/insert_options.dart';
+import 'package:final_assignment_first_semester/text_files/bad_ending.dart';
+import 'package:final_assignment_first_semester/text_files/introduction.dart';
+void main() {
+  introduction();
+  enterToContinue();
+  switch(introSelection()) {
+    case 1:
+      badEnding1();
+    case 2:
+      print('Continue');
+  }
 }

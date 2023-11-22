@@ -1,8 +1,5 @@
-import 'package:final_assignment_first_semester/final_assignment_first_semester.dart';
-import 'package:test/test.dart';
+import 'package:final_assignment_first_semester/text_files/bad_ending.dart';
 
 void main() {
-  test('calculate', () {
-    expect(calculate(), 42);
-  });
+  badEnding1();
 }
