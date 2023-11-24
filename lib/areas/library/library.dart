@@ -7,7 +7,7 @@ String kitchenDescription = '''
 
 ''';
 
-void kitchen() {
+void library() {
   roomsVisited.add('library');
   entranceSetter();
 }

@@ -1,8 +1,10 @@
 import 'package:final_assignment_first_semester/areas/kitchen/kitchen.dart';
+import 'package:final_assignment_first_semester/areas/library/library.dart';
+import 'package:final_assignment_first_semester/areas/main_hall/main_hall.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 
-void mainHallVisitedAndLibraryVisited() {
+void mainHallAndLibraryVisited() {
   bool optionSelector = false;
 
   while (optionSelector == false) {
@@ -44,11 +46,11 @@ void mainHallVisitedAndLibraryVisited() {
         optionSelector = true;
         break;
       case 3:
-        print('Main hall');
+        mainHall();
         optionSelector = true;
         break;
       case 4:
-        print('Library');
+        library();
         optionSelector = true;
       default:
         print('Not a valid option');

@@ -4,15 +4,15 @@ import 'package:final_assignment_first_semester/areas/main_hall/main_hall.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 
-void mainHallVisited() {
+void allRoomsVisited() {
   bool optionSelector = false;
 
   while (optionSelector == false) {
     print('You have the following options');
     print('1: Examine the room');
-    print('2: Go through the door on the left');
+    print('2: Go to the kitchen');
     print('3: Go to the Main Hall');
-    print('4: Go through the door to the right');
+    print('4: Go to the Library');
     int entranceOptions = nullEscapeAndConvertToInt();
     switch (entranceOptions) {
       case 1:
