@@ -3,6 +3,11 @@ class Room {
   int numberOfDoors;
   List<String>? items;
 
+  Room({
+    required this.description,
+    required this.numberOfDoors,
+    this.items,
+  });
 
-  Room({required this.description, required this.numberOfDoors, this.items});
+
 }
