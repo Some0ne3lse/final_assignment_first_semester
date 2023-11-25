@@ -3,12 +3,12 @@ import 'package:final_assignment_first_semester/areas/storage/storage.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 
-void noNewRooms() {
+void kitchenStorageVisited() {
   bool optionSelector = false;
   while (optionSelector == false){
     print('You have the following options');
     print('1: Examine the room');
-    print('2: Go through the door in the corner');
+    print('2: Go to the Storage');
     print('3: Go back to the entrance');
     int kitchenOptions = nullEscapeAndConvertToInt();
     switch(kitchenOptions) {
@@ -45,6 +45,7 @@ void noNewRooms() {
         break;
       case 3:
         entrance();
+        break;
       default:
         print('Not a valid option');
     }

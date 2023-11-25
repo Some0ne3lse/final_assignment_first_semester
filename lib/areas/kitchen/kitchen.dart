@@ -1,7 +1,7 @@
 import 'package:final_assignment_first_semester/area_classes/room.dart';
 import 'package:final_assignment_first_semester/areas/entrance/entrance.dart';
-import 'package:final_assignment_first_semester/areas/kitchen/rooms_visited_kitchen/no_new_rooms.dart';
-import 'package:final_assignment_first_semester/areas/kitchen/rooms_visited_kitchen/storage_visited.dart';
+import 'package:final_assignment_first_semester/areas/kitchen/rooms_visited_kitchen/a_kitchen_no_new_rooms.dart';
+import 'package:final_assignment_first_semester/areas/kitchen/rooms_visited_kitchen/b_kitchen_storage_visited.dart';
 import 'package:final_assignment_first_semester/lists/roomsVisited.dart';
 
 String kitchenDescription = '''
@@ -18,9 +18,9 @@ void kitchenSetter() {
   bool haveYouVisitedStorage = roomsVisited.contains('storage');
 
   if (haveYouVisitedStorage == false){
-    noNewRooms();
+    aKitchenNoNewRooms();
   } else if (haveYouVisitedStorage == true){
-    storageVisited();
+    kitchenStorageVisited();
   }
 
 }

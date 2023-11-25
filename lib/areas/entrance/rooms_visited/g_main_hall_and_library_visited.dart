@@ -5,7 +5,7 @@ import 'package:final_assignment_first_semester/areas/library/library.dart';
 import 'package:final_assignment_first_semester/text_files/room_examination.dart';
 
 void gMainHallAndLibraryVisited() {
-  threeDoors(
+  threeDoorsAndItem(
     'Go through the door on the left',
     'Go to the Main Hall',
     'Go to the Library',

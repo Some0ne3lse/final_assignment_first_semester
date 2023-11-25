@@ -4,7 +4,7 @@ import 'package:final_assignment_first_semester/areas/main_hall/main_hall.dart';
 import 'package:final_assignment_first_semester/areas/library/library.dart';
 import 'package:final_assignment_first_semester/text_files/room_examination.dart';
 void hAllRoomsVisited() {
-  threeDoors(
+  threeDoorsAndItem(
     'Go to the kitchen',
     'Go to the Main Hall',
     'Go to the Library',

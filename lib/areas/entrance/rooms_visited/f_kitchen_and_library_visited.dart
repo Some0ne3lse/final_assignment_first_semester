@@ -5,7 +5,7 @@ import 'package:final_assignment_first_semester/areas/library/library.dart';
 import 'package:final_assignment_first_semester/text_files/room_examination.dart';
 
 void fKitchenAndLibraryVisited() {
-  threeDoors(
+  threeDoorsAndItem(
     'Go to the Kitchen',
     'Go through the door straight ahead',
     'Go to the Library',
