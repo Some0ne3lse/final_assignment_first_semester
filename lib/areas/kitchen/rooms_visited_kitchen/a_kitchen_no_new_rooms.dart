@@ -1,18 +1,19 @@
-import 'package:final_assignment_first_semester/functions/room_options/two_doors_and_item.dart';
+import 'package:final_assignment_first_semester/functions/room_options/blueprints/two_doors.dart';
 import 'package:final_assignment_first_semester/areas/storage/storage.dart';
 import 'package:final_assignment_first_semester/text_files/room_examination.dart';
 import 'package:final_assignment_first_semester/areas/entrance/entrance.dart';
 
 void aKitchenNoNewRooms() {
   twoDoorsAndItem(
-    'Go through the door in the corner',
-    'Go back to the entrance',
-    kitchenExamination(),
-    storage,
-    entrance,
-    'doughnuts',
-    'Eat a doughnut',
-    'You eat a doughnut. It tastes nice.',
+    firstDoor: 'Go through the door in the corner',
+    secondDoor: 'Go to the Entrance',
+    roomExamination: kitchenExamination(),
+    selectFirstDoor: storage,
+    selectSecondDoor: entrance,
+    item: 'doughnuts',
+    interactWithItem: 'Eat a doughnut',
+    interacting:
+        'You eat a doughnut. It tastes nice, but not as nice as your cake',
   );
 }
 // void noNewRooms() {

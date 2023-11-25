@@ -8,19 +8,14 @@ import 'package:final_assignment_first_semester/areas/entrance/rooms_visited/g_m
 import 'package:final_assignment_first_semester/areas/entrance/rooms_visited/c_main_hall_visited.dart';
 import 'package:final_assignment_first_semester/areas/entrance/rooms_visited/a_no_rooms_visited.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
-import 'package:final_assignment_first_semester/functions/room_options/room_setter_three_doors.dart';
+import 'package:final_assignment_first_semester/functions/room_options/setters/room_setter_three_doors.dart';
 import 'package:final_assignment_first_semester/lists/roomsVisited.dart';
 import 'package:final_assignment_first_semester/text_files/arrival.dart';
-
-String entranceDescription = '''
-  There are three doors in this room. From the one on the left you smell food.
-  The door straight ahead is grand, and seems like the main entrance to the house.
-  To your left is a smaller, less used door.
-''';
+import 'package:final_assignment_first_semester/text_files/room_description.dart';
 
 void entrance() {
   roomSetterThreeDoors(
-    entranceDescription,
+    entranceDescription(),
     'kitchen',
     'mainHall',
     'library',

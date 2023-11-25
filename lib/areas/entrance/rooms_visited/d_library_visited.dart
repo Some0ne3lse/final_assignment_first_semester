@@ -1,4 +1,4 @@
-import 'package:final_assignment_first_semester/functions/room_options/three_doors_and_item.dart';
+import 'package:final_assignment_first_semester/functions/room_options/blueprints/three_doors_and_item.dart';
 import 'package:final_assignment_first_semester/areas/kitchen/kitchen.dart';
 import 'package:final_assignment_first_semester/areas/main_hall/main_hall.dart';
 import 'package:final_assignment_first_semester/areas/library/library.dart';
@@ -6,16 +6,16 @@ import 'package:final_assignment_first_semester/text_files/room_examination.dart
 
 void dLibraryVisited() {
   threeDoorsAndItem(
-    'Go through the door on the left',
-    'Go through the door straight ahead',
-    'Go to the Library',
-    entranceExamination(),
-    kitchenSetter,
-    mainHall,
-    library,
-    'shoes',
-    'Try the shoes on',
-    'The shoes are too big for you',
+    firstDoor: 'Go through the door on the left',
+    secondDoor: 'Go through the door straight ahead',
+    thirdDoor: 'Go to the Library',
+    roomExamination: entranceExamination(),
+    selectFirstDoor: kitchenSetter,
+    selectSecondDoor: mainHall,
+    selectThirdDoor: library,
+    item: 'shoes',
+    interactWithItem: 'Try the shoes on',
+    interacting: 'The shoes are too big for you',
   );
 }
 

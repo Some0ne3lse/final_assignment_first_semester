@@ -1,9 +1,11 @@
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 
+// In this code, you decide what you want to do with your inventory
+
 void inventoryOptions(){
   if (items.isEmpty) {
-    print('You have no items');
+    print('  You have no items');
   } else if (items.isNotEmpty) {
     print('Your items are:');
     for(String item in items){
@@ -22,9 +24,16 @@ void inventoryOptions(){
         if (item1.contains('sleeping-pills') && item2.contains('doughnuts')){
           print('You insert a few pills in one of the doughnuts');
           items.add('spiked-doughnuts');
+          for (String thing in items){ // Called thing since item is taken
+            print(thing);
+          }
+          enterToContinue();
         } else if (item2.contains('doughnuts') && item1.contains('sleeping-pills')){
           print('You insert a few pills in one of the doughnuts');
           items.add('spiked-doughnut');
+          for (String thing in items){ // Called thing since item is taken
+            print(thing);
+          }
           enterToContinue();
         } else {
           print('You cannot combine this');
