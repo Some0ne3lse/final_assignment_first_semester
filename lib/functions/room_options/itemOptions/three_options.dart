@@ -1,9 +1,10 @@
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 
-void threeOptions(String item, String optionOne, String optionTwo, String optionThree, String secondOption){
+void threeOptions(String roomExamination ,String item, String optionOne, String optionTwo, String optionThree, String secondOption){
   bool itemTaken = items.contains(item);
   if (itemTaken == false){
+    print(roomExamination);
     print('1: $optionOne');
     print('2: $optionTwo');
     print('3: $optionThree');

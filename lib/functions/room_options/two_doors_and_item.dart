@@ -23,8 +23,8 @@ void twoDoorsAndItem(
     int roomOptions = nullEscapeAndConvertToInt();
     switch (roomOptions) {
       case 1:
-        print(roomExamination);
         threeOptions(
+          roomExamination,
           item,
           'Take the $item',
           itemSpecial,
