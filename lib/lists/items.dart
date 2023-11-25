@@ -1,1 +1,1 @@
-List<String> items = [];
+Set<String> items = {};

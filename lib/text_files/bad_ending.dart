@@ -8,6 +8,8 @@ void badEnding1 (){
   You cannot believe what she's saying.
   "You're leaving me?"
   "Yes. I will be at my mom's. I need to think about things."
+  
+  The End
   ''');
   enterToContinue();
   madeBy();

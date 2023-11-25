@@ -9,5 +9,5 @@ String kitchenDescription = '''
 
 void mainHall() {
   roomsVisited.add('mainHall');
-  entranceSetter();
+  entrance();
 }
