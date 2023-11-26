@@ -1,6 +1,8 @@
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 
+import '../../../text_files/notes.dart';
+
 // In this code, you decide what you want to do with your inventory
 
 void inventoryOptions(){
@@ -13,7 +15,8 @@ void inventoryOptions(){
     }
     print('What do you want to do?');
     print('1: Combine items');
-    print('2: Continue your search');
+    print('2: Examine your items');
+    print('3: Continue your search');
     int itemOptionSelector  = nullEscapeAndConvertToInt();
     switch (itemOptionSelector){
       case 1:
@@ -36,9 +39,34 @@ void inventoryOptions(){
           }
           enterToContinue();
         } else {
-          print('You cannot combine this');
+          print('You cannot combine these');
         }
       case 2:
+        print('What do you want to examine?');
+        for(String item in items){
+          print(item);
+        }
+        String whatToExamine = nullEscapeFromString().toLowerCase();
+        switch (whatToExamine) {
+          case 'shoes':
+            print('The shoes are too big for you');
+            break;
+          case 'saw':
+            print('The saw looks to be in fine condition');
+            break;
+          case 'axe':
+            print('The axe is sharp');
+            break;
+          case 'doughnuts':
+            print('You eat a doughnut. It tastes nice, but not as nice as your cake');
+            break;
+          case 'basement note':
+            print('The note reads as following: ${basementNote()}');
+            break;
+          default:
+            print('You do not have this item');
+        }
+      case 3:
         break;
       default:
         print('Not a valid option');

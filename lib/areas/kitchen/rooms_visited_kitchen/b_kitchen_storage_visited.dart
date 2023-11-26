@@ -9,12 +9,13 @@ void bKitchenStorageVisited() {
   twoDoorsAndItem(
     firstDoor: 'Go to the storage',
     secondDoor: 'Go to the Entrance',
-    roomExamination: kitchenExamination(),
+    roomExaminationAll: kitchenExamination(),
     selectFirstDoor: storage,
     selectSecondDoor: entrance,
-    item: 'doughnuts',
-    interactWithItem: 'Eat a doughnut',
-    interacting:
+    itemAmount: 1,
+    itemOne: 'doughnuts',
+    interactWithOne: 'Eat a doughnut',
+    actionOne:
     'You eat a doughnut. It tastes nice, but not as nice as your cake',
   );
 }

@@ -27,6 +27,12 @@ String storageExaminationSawTaken() {
 }
 String storageExaminationAxeTaken() {
   return '''
-  You look around, and you find a saw hanging on the wall.
+  You find a saw hanging on the wall.
+  ''';
+}
+
+String libraryExamination() {
+  return '''
+  You see a note on the desk.
   ''';
 }

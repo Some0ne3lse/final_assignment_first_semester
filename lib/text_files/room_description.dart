@@ -23,3 +23,10 @@ String storageDescription() {
   
   ''';
 }
+
+String libraryDescription() {
+  return '''
+  This room is filled with books. Looks like you stumbled into a library!
+  The only door in this area is the one back to the entrance.
+  ''';
+}
