@@ -11,7 +11,6 @@ void storage() {
   roomsVisited.add('storage');
   print(storageDescription());
 
-
   oneDoorTwoItems(
     door: 'Go back to the Kitchen',
     roomExaminationAll: storageExaminationAll(),
@@ -23,7 +22,22 @@ void storage() {
     itemTwo: 'axe',
     interactWithOne: 'Check if the saw is in a good state',
     interactWithTwo: 'Check how sharp the axe is',
-    interactingOne: 'The saw looks to be in fine condition',
-    interactingTwo: 'The axe is sharp. You swing it through the air to test it',
+    interactingOneTest: 'The saw looks to be in fine condition',
+    interactingTwoTest: 'The axe is sharp. You swing it through the air to test it',
   );
+
+  // oneDoorTwoItems(
+  //   door: 'Go back to the Kitchen',
+  //   roomExaminationAll: storageExaminationAll(),
+  //   roomExaminationFirstTaken: storageExaminationSawTaken(),
+  //   roomExaminationSecondTaken: storageExaminationAxeTaken(),
+  //   roomExaminationEmpty: 'You find nothing else of value',
+  //   selectDoor: kitchenSetter,
+  //   itemOne: 'saw',
+  //   itemTwo: 'axe',
+  //   interactWithOne: 'Check if the saw is in a good state',
+  //   interactWithTwo: 'Check how sharp the axe is',
+  //   interactingOne: 'The saw looks to be in fine condition',
+  //   interactingTwo: 'The axe is sharp. You swing it through the air to test it',
+  // );
 }

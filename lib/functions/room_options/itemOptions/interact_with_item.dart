@@ -53,10 +53,10 @@ void interactWithTwoItems({
       enterToContinue();
       break;
     case 3:
-      interactingOne;
+      print(interactingOne);
       break;
     case 4:
-      interactingTwo;
+      print(interactingTwo);
       break;
     case 5:
       break;

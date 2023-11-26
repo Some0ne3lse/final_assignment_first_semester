@@ -1,6 +1,6 @@
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/itemOptions/inventory_options.dart';
-import 'package:final_assignment_first_semester/functions/room_options/itemOptions/one_ item_three_options.dart';
+import 'package:final_assignment_first_semester/functions/room_options/itemOptions/item_options.dart';
 
 // This function is the basic layout for rooms with three doors and one item
 
@@ -28,13 +28,13 @@ void threeDoorsAndItem({
     int roomOptions = nullEscapeAndConvertToInt();
     switch (roomOptions) {
       case 1:
-        oneItemThreeOptions(
-          roomExamination: roomExamination,
-          item: item,
-          takeItem: 'Take the $item',
-          interactWithItem: interactWithItem,
-          leaveItem: 'Leave the $item',
-          interacting: interacting,
+        itemOptions(
+          roomExaminationAll: roomExamination,
+          itemOne: item,
+          takeOptionOne: 'Take the $item',
+          interactWithOne: interactWithItem,
+          interactingOne: interacting,
+          leaveAll: 'Leave the $item',
         );
         break;
       case 2:

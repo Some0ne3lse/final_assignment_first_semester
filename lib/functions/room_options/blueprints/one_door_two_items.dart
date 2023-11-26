@@ -2,7 +2,7 @@
 
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/itemOptions/inventory_options.dart';
-import 'package:final_assignment_first_semester/functions/room_options/itemOptions/two_items.dart';
+import 'package:final_assignment_first_semester/functions/room_options/itemOptions/item_options.dart';
 
 void oneDoorTwoItems(
     {required String door,
@@ -15,8 +15,8 @@ void oneDoorTwoItems(
     required String itemTwo,
     required String interactWithOne,
     required String interactWithTwo,
-    required String interactingOne,
-    required String interactingTwo}) {
+    required String interactingOneTest,
+    required String interactingTwoTest}) {
   bool optionSelector = false;
   while (optionSelector == false) {
     print('1: Examine the room');
@@ -25,22 +25,21 @@ void oneDoorTwoItems(
     int roomOptions = nullEscapeAndConvertToInt();
     switch (roomOptions) {
       case 1:
-        twoItems(
+        itemOptions(
           roomExaminationAll: roomExaminationAll,
           roomExaminationFirstTaken: roomExaminationFirstTaken,
           roomExaminationSecondTaken: roomExaminationSecondTaken,
-          roomExaminationEmpty: roomExaminationEmpty,
           itemOne: itemOne,
           itemTwo: itemTwo,
           takeOptionOne: 'Take the $itemOne',
           takeOptionTwo: 'Take the $itemTwo',
           interactWithOne: interactWithOne,
           interactWithTwo: interactWithTwo,
-          interactingOne: interactingOne,
-          interactingTwo: interactingTwo,
-          leaveBoth: "Leave both items",
+          interactingOne: interactingOneTest,
+          interactingTwo: interactingTwoTest,
+          leaveAll: "Leave both items",
           leaveItemOne: 'Leave the $itemOne',
-          leaveItemTwo: 'Leave teh $itemTwo',
+          leaveItemTwo: 'Leave the $itemTwo',
         );
         break;
       case 2:
