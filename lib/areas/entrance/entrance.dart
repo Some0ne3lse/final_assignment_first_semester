@@ -8,13 +8,13 @@ import 'package:final_assignment_first_semester/areas/entrance/rooms_visited/g_m
 import 'package:final_assignment_first_semester/areas/entrance/rooms_visited/c_main_hall_visited.dart';
 import 'package:final_assignment_first_semester/areas/entrance/rooms_visited/a_no_rooms_visited.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
-import 'package:final_assignment_first_semester/functions/room_options/setters/room_setter_three_doors.dart';
+import 'package:final_assignment_first_semester/functions/room_options/setters/room_setter_entry.dart';
 import 'package:final_assignment_first_semester/lists/roomsVisited.dart';
 import 'package:final_assignment_first_semester/text_files/arrival.dart';
 import 'package:final_assignment_first_semester/text_files/room_description.dart';
 
 void entrance() {
-  roomSetterThreeDoors(
+  roomSetterEntry(
     entranceDescription(),
     'kitchen',
     'mainHall',

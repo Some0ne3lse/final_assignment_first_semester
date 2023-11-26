@@ -10,7 +10,7 @@ void bKitchenVisited() {
     secondDoor: 'Go through the door straight ahead',
     thirdDoor: 'Go through the door on the right',
     roomExaminationAll: entranceExamination(),
-    selectFirstDoor: kitchenSetter,
+    selectFirstDoor: kitchen,
     selectSecondDoor: mainHall,
     selectThirdDoor: library,
     itemAmount: 1,

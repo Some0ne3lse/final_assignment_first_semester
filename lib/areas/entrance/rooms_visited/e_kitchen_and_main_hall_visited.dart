@@ -10,7 +10,7 @@ void eKitchenAndMainHallVisited() {
     secondDoor: 'Go to the Main Hall',
     thirdDoor: 'Go through the door on the right',
     roomExaminationAll: entranceExamination(),
-    selectFirstDoor: kitchenSetter,
+    selectFirstDoor: kitchen,
     selectSecondDoor: mainHall,
     selectThirdDoor: library,
     itemAmount: 1,

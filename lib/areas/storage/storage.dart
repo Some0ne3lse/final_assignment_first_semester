@@ -16,7 +16,7 @@ void storage() {
     roomExaminationAll: storageExaminationAll(),
     roomExaminationFirstTaken: storageExaminationSawTaken(),
     roomExaminationSecondTaken: storageExaminationAxeTaken(),
-    selectDoor: kitchenSetter,
+    selectDoor: kitchen,
     itemAmount: 2,
     itemOne: 'saw',
     itemTwo: 'axe',

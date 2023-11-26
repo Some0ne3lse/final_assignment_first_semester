@@ -5,3 +5,9 @@ String basementNote() {
   For now, I'll keep it in my safe. No one but me knows the code for that.
   ''';
 }
+
+String letter() {
+  return '''
+  The damn dog keeps chewing on my shoes.
+  ''';
+}

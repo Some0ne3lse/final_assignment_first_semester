@@ -10,7 +10,7 @@ void dLibraryVisited() {
     secondDoor: 'Go through the door straight ahead',
     thirdDoor: 'Go to the Library',
     roomExaminationAll: entranceExamination(),
-    selectFirstDoor: kitchenSetter,
+    selectFirstDoor: kitchen,
     selectSecondDoor: mainHall,
     selectThirdDoor: library,
     itemAmount: 1,

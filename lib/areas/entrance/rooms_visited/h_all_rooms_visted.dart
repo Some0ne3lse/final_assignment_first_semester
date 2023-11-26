@@ -9,7 +9,7 @@ void hAllRoomsVisited() {
     secondDoor: 'Go to the Main Hall',
     thirdDoor: 'Go to the Library',
     roomExaminationAll: entranceExamination(),
-    selectFirstDoor: kitchenSetter,
+    selectFirstDoor: kitchen,
     selectSecondDoor: mainHall,
     selectThirdDoor: library,
     itemAmount: 1,

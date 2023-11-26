@@ -36,3 +36,10 @@ String libraryExamination() {
   You see a note on the desk.
   ''';
 }
+
+String mainHallExamination() {
+  return '''
+  You look around for anything worth examining.
+  After some time you find a letter.
+  ''';
+}

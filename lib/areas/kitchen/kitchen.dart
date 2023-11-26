@@ -6,7 +6,7 @@ import 'package:final_assignment_first_semester/functions/room_options/setters/r
 import 'package:final_assignment_first_semester/lists/roomsVisited.dart';
 import 'package:final_assignment_first_semester/text_files/room_description.dart';
 
-void kitchenSetter() {
+void kitchen() {
   roomsVisited.add('kitchen');
 
   roomSetterTwoDoors(
