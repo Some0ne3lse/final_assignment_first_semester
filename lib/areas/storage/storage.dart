@@ -1,4 +1,5 @@
 import 'package:final_assignment_first_semester/areas/kitchen/kitchen.dart';
+import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/blueprints/one_door.dart';
 import 'package:final_assignment_first_semester/lists/roomsVisited.dart';
 import 'package:final_assignment_first_semester/text_files/room_description.dart';
@@ -9,7 +10,8 @@ import 'package:final_assignment_first_semester/areas/kitchen/kitchen.dart';
 
 void storage() {
   roomsVisited.add('storage');
-  print(storageDescription());
+  storageDescription();
+  enterToContinue();
 
   oneDoor(
     door: 'Go back to the Kitchen',

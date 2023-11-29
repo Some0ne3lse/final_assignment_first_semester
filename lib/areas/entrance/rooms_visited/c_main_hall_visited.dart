@@ -1,11 +1,15 @@
+import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/blueprints/three_doors.dart';
 import 'package:final_assignment_first_semester/areas/kitchen/kitchen.dart';
 import 'package:final_assignment_first_semester/areas/main_hall/main_hall.dart';
 import 'package:final_assignment_first_semester/areas/library/library.dart';
+import 'package:final_assignment_first_semester/text_files/room_description.dart';
 import 'package:final_assignment_first_semester/text_files/room_examination.dart';
 
 void cMainHallVisited() {
-  threeDoorsAndItem(
+  entranceDescription();
+  enterToContinue();
+  threeDoors(
     firstDoor: 'Go through the door on the left',
     secondDoor: 'Go to the Main Hall',
     thirdDoor: 'Go through the door on the right',

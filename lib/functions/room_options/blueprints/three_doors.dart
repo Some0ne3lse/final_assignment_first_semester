@@ -4,7 +4,7 @@ import 'package:final_assignment_first_semester/functions/room_options/itemOptio
 
 // This function is the basic layout for rooms with three doors and one item
 
-void threeDoorsAndItem({
+void threeDoors({
   required String firstDoor,
   required String secondDoor,
   required String thirdDoor,
@@ -59,6 +59,7 @@ void threeDoorsAndItem({
             leaveItemOne: 'Leave the $itemOne',
             leaveItemTwo: 'Leave the $itemTwo',
           );
+          break;
         case 2:
           selectFirstDoor();
           optionSelector = true;
@@ -119,6 +120,7 @@ void threeDoorsAndItem({
           break;
         case 4:
           selectThirdDoor();
+          optionSelector = true;
         case 5:
           inventoryOptions();
           break;

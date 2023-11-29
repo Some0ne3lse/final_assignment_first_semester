@@ -62,7 +62,6 @@ void oneDoor({
           break;
         case 3:
           inventoryOptions();
-          optionSelector = true;
           break;
         default:
           print('Not a valid option');
@@ -80,6 +79,7 @@ void oneDoor({
               interactWithOne: interactWithOne,
               interactingOne: actionOne,
               leaveAll: 'Leave the item');
+          break;
         case 2:
           selectDoor();
           optionSelector = true;
@@ -101,6 +101,7 @@ void oneDoor({
           break;
         case 3:
           inventoryOptions();
+          break;
         default:
           print('Not a valid option');
       }

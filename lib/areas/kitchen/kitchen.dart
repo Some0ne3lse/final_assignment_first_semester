@@ -1,5 +1,3 @@
-import 'package:final_assignment_first_semester/area_classes/room.dart';
-import 'package:final_assignment_first_semester/areas/entrance/entrance.dart';
 import 'package:final_assignment_first_semester/areas/kitchen/rooms_visited_kitchen/a_kitchen_no_new_rooms.dart';
 import 'package:final_assignment_first_semester/areas/kitchen/rooms_visited_kitchen/b_kitchen_storage_visited.dart';
 import 'package:final_assignment_first_semester/functions/room_options/setters/room_setter_two_doors.dart';
@@ -10,7 +8,6 @@ void kitchen() {
   roomsVisited.add('kitchen');
 
   roomSetterTwoDoors(
-    kitchenDescription(),
     'storage',
     aKitchenNoNewRooms,
     bKitchenStorageVisited,

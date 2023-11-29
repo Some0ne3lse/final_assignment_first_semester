@@ -43,3 +43,9 @@ String mainHallExamination() {
   After some time you find a letter.
   ''';
 }
+
+String hallExamination() {
+  return '''
+  There is nothing of interest here.
+  ''';
+}

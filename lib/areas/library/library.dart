@@ -7,7 +7,7 @@ import 'package:final_assignment_first_semester/text_files/room_examination.dart
 
 void library() {
   roomsVisited.add('library');
-  print(libraryDescription());
+  libraryDescription();
   oneDoor(
     door: 'Go back to the Entrance',
     roomExaminationAll: libraryExamination(),

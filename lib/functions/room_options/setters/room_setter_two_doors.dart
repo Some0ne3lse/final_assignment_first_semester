@@ -1,18 +1,16 @@
+import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/roomsVisited.dart';
 
 void roomSetterTwoDoors(
-String description,
-    String nextRoom,
-    Function aRoomVersion,
-    Function bRoomVersion,
-){
-  print(description);
+  String nextRoom,
+  Function aRoomVersion,
+  Function bRoomVersion,
+) {
 
   bool haveYouVisitedNewRoom = roomsVisited.contains(nextRoom);
-  if (haveYouVisitedNewRoom == false){
+  if (haveYouVisitedNewRoom == false) {
     aRoomVersion();
   } else {
     bRoomVersion();
   }
-
 }

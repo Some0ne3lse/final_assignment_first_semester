@@ -1,7 +1,7 @@
+import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/roomsVisited.dart';
 
 void roomSetterThreeDoors(
-    String description,
     String firstRoom,
     String secondRoom,
     String thirdRoom,
@@ -10,7 +10,6 @@ void roomSetterThreeDoors(
     Function cRoomVersion,
     Function dAllRoomVersion,
     ) {
-  print(description);
 
   bool haveYouVisitedSecondRoom = roomsVisited.contains(secondRoom);
   bool haveYouVisitedThirdRoom = roomsVisited.contains(thirdRoom);

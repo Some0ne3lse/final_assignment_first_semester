@@ -7,11 +7,11 @@ import 'package:final_assignment_first_semester/areas/hall/hall.dart';
 import 'package:final_assignment_first_semester/areas/living_room/living_room.dart';
 import 'package:final_assignment_first_semester/areas/entrance/entrance.dart';
 
-void aOnlyEntryRoomVisited() {
+void bEntryAndHallVisited() {
   mainHallDescription();
   enterToContinue();
   threeDoors(
-    firstDoor: 'Go through the door straight ahead',
+    firstDoor: 'Go to the Hall',
     secondDoor: 'Go through the door on your right',
     thirdDoor: 'Go back to entrance',
     roomExaminationAll: mainHallExamination(),

@@ -4,7 +4,7 @@ import 'package:final_assignment_first_semester/functions/room_options/itemOptio
 
 // This function is the basic layout for rooms with two doors and one item
 
-void twoDoorsAndItem({
+void twoDoors({
   required String firstDoor,
   required String secondDoor,
   required String roomExaminationAll,

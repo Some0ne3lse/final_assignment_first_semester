@@ -1,10 +1,11 @@
+import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/roomsVisited.dart';
 
 // This function selects which room version you end up in. This is to keep track
-// on which rooms you have already visited
+// on which rooms you have already visited.
+// You could also do this in one file instead of 8, but I wanted to keep the code pretty.
 
 void roomSetterEntry(
-  String description,
   String firstRoom,
   String secondRoom,
   String thirdRoom,
@@ -17,7 +18,6 @@ void roomSetterEntry(
   Function gRoomVersion,
   Function hAllRoomVersion,
 ) {
-  print(description);
 
   bool haveYouVisitedFirstRoom = roomsVisited.contains(firstRoom);
   bool haveYouVisitedSecondRoom = roomsVisited.contains(secondRoom);

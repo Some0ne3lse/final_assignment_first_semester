@@ -49,7 +49,7 @@ void inventoryOptions(){
         String whatToExamine = nullEscapeFromString().toLowerCase();
         switch (whatToExamine) {
           case 'shoes':
-            print('The shoes are too big for you');
+            print('The shoes are too big for you. They have chewing marks on them');
             break;
           case 'saw':
             print('The saw looks to be in fine condition');
@@ -66,6 +66,7 @@ void inventoryOptions(){
           default:
             print('You do not have this item');
         }
+        enterToContinue();
       case 3:
         break;
       default:

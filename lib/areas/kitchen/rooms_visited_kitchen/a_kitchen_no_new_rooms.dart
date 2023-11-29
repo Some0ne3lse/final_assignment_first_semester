@@ -1,10 +1,14 @@
+import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/blueprints/two_doors.dart';
 import 'package:final_assignment_first_semester/areas/storage/storage.dart';
+import 'package:final_assignment_first_semester/text_files/room_description.dart';
 import 'package:final_assignment_first_semester/text_files/room_examination.dart';
 import 'package:final_assignment_first_semester/areas/entrance/entrance.dart';
 
 void aKitchenNoNewRooms() {
-  twoDoorsAndItem(
+  kitchenDescription();
+  enterToContinue();
+  twoDoors(
     firstDoor: 'Go through the door in the corner',
     secondDoor: 'Go to the Entrance',
     roomExaminationAll: kitchenExamination(),

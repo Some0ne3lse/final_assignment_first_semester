@@ -3,10 +3,13 @@ import 'package:final_assignment_first_semester/areas/storage/storage.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/blueprints/two_doors.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
+import 'package:final_assignment_first_semester/text_files/room_description.dart';
 import 'package:final_assignment_first_semester/text_files/room_examination.dart';
 
 void bKitchenStorageVisited() {
-  twoDoorsAndItem(
+  kitchenDescription();
+  enterToContinue();
+  twoDoors(
     firstDoor: 'Go to the storage',
     secondDoor: 'Go to the Entrance',
     roomExaminationAll: kitchenExamination(),

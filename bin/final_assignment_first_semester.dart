@@ -12,7 +12,7 @@ void main() {
   enterToContinue();
   switch(introSelection()) {
     case 1:
-      badEnding1();
+      badEndingOne();
     case 2:
       arrival();
   }

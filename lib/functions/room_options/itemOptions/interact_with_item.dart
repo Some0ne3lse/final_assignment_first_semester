@@ -18,6 +18,7 @@ void interactWithOneItem({
       break;
     case 2:
       print(interacting);
+      enterToContinue();
       break;
     case 3:
       break;
@@ -54,9 +55,11 @@ void interactWithTwoItems({
       break;
     case 3:
       print(interactingOne);
+      enterToContinue();
       break;
     case 4:
       print(interactingTwo);
+      enterToContinue();
       break;
     case 5:
       break;
