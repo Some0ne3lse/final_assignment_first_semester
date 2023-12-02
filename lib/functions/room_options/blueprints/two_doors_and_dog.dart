@@ -28,22 +28,28 @@ void twoDoorsAndDog({
     bool interactItem = items.contains('spiked doughnut');
     switch (roomOptions){
       case 1:
-        if (interactItem == true){
-          print('''$roomExamination
+        if (sleepingDog == false) {
+          if (interactItem == true) {
+            print('''$roomExamination
           1: Give the dog the spiked doughnuts
           2: Leave the dog
           ''');
-          int itemOption = nullEscapeAndConvertToInt();
-          switch (itemOption){
-            case 1:
-              print('The dog eats the doughnut happily. After some time it falls asleep');
-              sleepingDog = true;
-              break;
-            case 2:
-              break;
+            int itemOption = nullEscapeAndConvertToInt();
+            switch (itemOption) {
+              case 1:
+                print(
+                    'The dog eats the doughnut happily. After some time it falls asleep');
+                sleepingDog = true;
+                items.remove('spiked doughnut');
+                break;
+              case 2:
+                break;
+            }
+          } else if (interactItem == false) {
+            print(gardenExamination());
           }
-        } else if (interactItem == false){
-          print(gardenExamination());
+        } else if (sleepingDog == true){
+          print('There is nothing of interest, and the dog is sleeping');
         }
       case 2:
         selectNewDoor();

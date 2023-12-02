@@ -56,3 +56,9 @@ String gardenExamination() {
   It doesn't look like it will let you into its home though.
   ''';
 }
+String kennelExamination() {
+  return '''
+  You look around the Kennel.
+  In the corner you find a small notebook labeled Homework.
+  ''';
+}

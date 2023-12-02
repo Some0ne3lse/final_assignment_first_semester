@@ -48,6 +48,7 @@ void inventoryOptions() {
           }
         case 2:
           print('What do you want to examine?');
+          print('Write your option in the console');
           for (String item in items) {
             print(item);
           }
@@ -73,6 +74,8 @@ void inventoryOptions() {
             case 'letter':
               print('The letter reads as following: ${letter()}');
               break;
+            case 'homework':
+              print('The homework reads as following: ${homework()}');
             default:
               print('You do not have this item');
           }

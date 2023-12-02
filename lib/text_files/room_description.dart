@@ -67,3 +67,9 @@ void gardenDescription() {
   It seems like no one has kept it nice, and there is poo everywhere.
   ''');
 }
+
+void kennelDescription() {
+  print('''
+  It is dark inside the kennel, but to your surprise, kinda cozy
+  ''');
+}
