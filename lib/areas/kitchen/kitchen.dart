@@ -1,27 +1,26 @@
-import 'package:final_assignment_first_semester/areas/kitchen/rooms_visited_kitchen/a_kitchen_no_new_rooms.dart';
-import 'package:final_assignment_first_semester/areas/kitchen/rooms_visited_kitchen/b_kitchen_storage_visited.dart';
-import 'package:final_assignment_first_semester/functions/room_options/setters/room_setter_two_doors.dart';
+import 'package:final_assignment_first_semester/functions/insert_options.dart';
+import 'package:final_assignment_first_semester/functions/room_options/blueprints/two_doors_one_item.dart';
+import 'package:final_assignment_first_semester/areas/kitchen/visited_rooms_kitchen.dart';
 import 'package:final_assignment_first_semester/lists/roomsVisited.dart';
 import 'package:final_assignment_first_semester/text_files/room_description.dart';
+import 'package:final_assignment_first_semester/text_files/room_examination.dart';
+import 'package:final_assignment_first_semester/areas/storage/storage.dart';
+import 'package:final_assignment_first_semester/areas/entrance/entrance.dart';
 
 void kitchen() {
   roomsVisited.add('kitchen');
-
-  roomSetterTwoDoors(
-    'storage',
-    aKitchenNoNewRooms,
-    bKitchenStorageVisited,
+  kitchenDescription();
+  enterToContinue();
+  twoDoorsOneItem(
+    newRoom: 'storage',
+    printNoNewRooms: noNewRoomsKitchen,
+    printNewRoom: storageVisited,
+    roomExamination: kitchenExamination(),
+    item: 'doughnuts',
+    chooseInteract: 'Eat a doughnut',
+    interactAction:
+        'You eat a doughnut. It tastes nice, but not as nice as your cake',
+    selectNewDoor: storage,
+    selectPreviousDoor: entrance,
   );
 }
-// void kitchenSetter() {
-//   roomsVisited.add('kitchen');
-//   print(kitchenDescription());
-//   bool haveYouVisitedStorage = roomsVisited.contains('storage');
-//
-//   if (haveYouVisitedStorage == false){
-//     aKitchenNoNewRooms();
-//   } else if (haveYouVisitedStorage == true){
-//     kitchenStorageVisited();
-//   }
-//
-// }

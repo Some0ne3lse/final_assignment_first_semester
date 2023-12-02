@@ -38,7 +38,7 @@ void mainHallDescription(){
   It is filled with beautiful furniture and art.
   But there is no cake in here...
   There are three doors. One straight ahead towards what seems like another hall,
-  one on the left towards something that looks like something more private,
+  one on the right towards something that looks like something more private,
   and one back to the entrance.
   ''');
 }

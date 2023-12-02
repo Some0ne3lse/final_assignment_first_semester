@@ -1,7 +1,7 @@
 void introduction() {
   print('GETTING THE CAKE BACK');
   print('''
-  It\'s late at night. It\'s your birthday and you looked forward to it all year.
+  It's late at night. It's your birthday and you looked forward to it all year.
   Your cake. Just the way your mother made it.
   But when you come home from work, you find your wife crying, and the cake gone.
   "Where is my cake?" You ask. 

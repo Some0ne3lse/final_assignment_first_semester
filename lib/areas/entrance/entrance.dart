@@ -1,66 +1,36 @@
-import 'package:final_assignment_first_semester/areas/entrance/rooms_visited/h_all_rooms_visted_entrance.dart';
-import 'package:final_assignment_first_semester/areas/entrance/rooms_visited/f_kitchen_and_library_visited.dart';
-import 'package:final_assignment_first_semester/areas/entrance/rooms_visited/e_kitchen_and_main_hall_visited.dart';
-import 'package:final_assignment_first_semester/areas/entrance/rooms_visited/b_kitchen_visited.dart';
-import 'package:final_assignment_first_semester/areas/entrance/rooms_visited/d_library_visited.dart';
-import 'package:final_assignment_first_semester/areas/entrance/rooms_visited/g_main_hall_and_library_visited.dart';
-import 'package:final_assignment_first_semester/areas/entrance/rooms_visited/c_main_hall_visited.dart';
-import 'package:final_assignment_first_semester/areas/entrance/rooms_visited/a_no_rooms_visited.dart';
-import 'package:final_assignment_first_semester/functions/room_options/setters/room_setter_entry.dart';
+import 'package:final_assignment_first_semester/functions/insert_options.dart';
+import 'package:final_assignment_first_semester/functions/room_options/blueprints/three_doors_entrance.dart';
+import 'package:final_assignment_first_semester/areas/entrance/visited_rooms_entrance.dart';
 import 'package:final_assignment_first_semester/text_files/room_description.dart';
+import 'package:final_assignment_first_semester/text_files/room_examination.dart';
+import 'package:final_assignment_first_semester/areas/kitchen/kitchen.dart';
+import 'package:final_assignment_first_semester/areas/main_hall/main_hall.dart';
+import 'package:final_assignment_first_semester/areas/library/library.dart';
 
 void entrance() {
-  roomSetterEntry(
-    'kitchen',
-    'mainHall',
-    'library',
-    aNoRoomVisited,
-    bKitchenVisited,
-    cMainHallVisited,
-    dLibraryVisited,
-    eKitchenAndMainHallVisited,
-    fKitchenAndLibraryVisited,
-    gMainHallAndLibraryVisited,
-    hAllRoomsVisitedEntrance,
+  entranceDescription();
+  enterToContinue();
+  // The following code could be written in only this file, but for consistency
+  // and to use it as a blueprint for the following rooms, I've set it up as a
+  // reusable code
+  threeDoorsEntrance(
+    firstRoom: 'kitchen',
+    secondRoom: 'mainHall',
+    thirdRoom: 'library',
+    printNoRooms: noRoomsVisitedEntrance,
+    printFirstRoom: kitchenVisited,
+    printSecondRoom: mainHallVisited,
+    printThirdRoom: libraryVisited,
+    printFirstAndSecond: kitchenAndMainHallVisited,
+    printFirstAndThird: kitchenAndLibraryVisited,
+    printSecondAndThird: mainHallAndLibraryVisited,
+    printAll: allRoomsVisitedEntrance,
+    roomExamination: entranceExamination(),
+    item: 'shoes',
+    chooseInteract: 'Try the shoes on',
+    interactAction: 'The shoes are too big for you',
+    selectFirstDoor: kitchen,
+    selectSecondDoor: mainHall,
+    selectThirdDoor: library,
   );
 }
-
-//   bool haveYouVisitedKitchen = roomsVisited.contains('kitchen');
-//   bool haveYouVisitedLibrary = roomsVisited.contains('library');
-//   bool haveYouVisitedMainHall = roomsVisited.contains('mainHall');
-//   print(entranceDescription);
-//
-//   if (haveYouVisitedKitchen == false &&
-//       haveYouVisitedMainHall == false &&
-//       haveYouVisitedLibrary == false) {
-//     aNoRoomVisited();
-//   } else if (haveYouVisitedKitchen == true &&
-//       haveYouVisitedMainHall == false &&
-//       haveYouVisitedLibrary == false) {
-//     bKitchenVisited();
-//   } else if (haveYouVisitedKitchen == false &&
-//       haveYouVisitedMainHall == true &&
-//       haveYouVisitedLibrary == false) {
-//     cMainHallVisited();
-//   } else if (haveYouVisitedKitchen == false &&
-//       haveYouVisitedMainHall == false &&
-//       haveYouVisitedLibrary == true) {
-//     dLibraryVisited();
-//   } else if (haveYouVisitedKitchen == true &&
-//       haveYouVisitedMainHall == true &&
-//       haveYouVisitedLibrary == false) {
-//     eKitchenAndMainHallVisited();
-//   } else if (haveYouVisitedKitchen == true &&
-//       haveYouVisitedMainHall == false &&
-//       haveYouVisitedLibrary == true) {
-//     fKitchenAndLibraryVisited();
-//   } else if (haveYouVisitedKitchen == false &&
-//       haveYouVisitedMainHall == true &&
-//       haveYouVisitedLibrary == true) {
-//     gMainHallAndLibraryVisited();
-//   } else if (haveYouVisitedKitchen == true &&
-//       haveYouVisitedMainHall == true &&
-//       haveYouVisitedLibrary == true) {
-//     hAllRoomsVisited();
-//   }
-// }
