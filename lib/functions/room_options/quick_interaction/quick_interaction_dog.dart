@@ -1,10 +1,13 @@
+import 'package:final_assignment_first_semester/areas/garden/garden.dart';
+import 'package:final_assignment_first_semester/areas/hall/hall.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
-import 'package:final_assignment_first_semester/text_files/bad_ending.dart';
+import 'package:final_assignment_first_semester/text_files/endings/bad_endings.dart';
+import 'package:final_assignment_first_semester/text_files/endings/good_endings.dart';
 import 'package:final_assignment_first_semester/text_files/quick_interaction_text.dart';
 
 bool tamedDog = false;
-void quickAction({required Function room}) {
+void quickInteractionDog() {
   print('The dog runs toward you. What do you want to do?');
   bool optionSelector = false;
   while (optionSelector == false) {
@@ -17,7 +20,7 @@ void quickAction({required Function room}) {
       int quickOption = nullEscapeAndConvertToInt();
       switch (quickOption) {
         case 1:
-          room();
+          hall();
           optionSelector = true;
           break;
         case 2:
@@ -30,9 +33,10 @@ void quickAction({required Function room}) {
           break;
         case 4:
           happyDog();
+          enterToContinue();
           tamedDog = true;
           optionSelector = true;
-          room();
+          garden();
           break;
         case 5:
           givingUpOnLifeDog();
@@ -49,7 +53,7 @@ void quickAction({required Function room}) {
       int quickOption = nullEscapeAndConvertToInt();
       switch (quickOption) {
         case 1:
-          room();
+          hall();
           optionSelector = true;
           break;
         case 2:
@@ -75,7 +79,7 @@ void quickAction({required Function room}) {
       int quickOption = nullEscapeAndConvertToInt();
       switch (quickOption) {
         case 1:
-          room();
+          hall();
           optionSelector = true;
           break;
         case 2:
@@ -84,8 +88,9 @@ void quickAction({required Function room}) {
           break;
         case 3:
           happyDog();
+          enterToContinue();
           tamedDog = true;
-          room();
+          garden();
           optionSelector = true;
           break;
         case 4:
@@ -102,7 +107,7 @@ void quickAction({required Function room}) {
       int quickOption = nullEscapeAndConvertToInt();
       switch (quickOption) {
         case 1:
-          room();
+          hall();
           optionSelector = true;
           break;
         case 2:

@@ -28,7 +28,7 @@ void inventoryOptions() {
           String item2 = nullEscapeFromString().toLowerCase();
           if (item1.contains('sleeping-pills') && item2.contains('doughnuts')) {
             print('You insert a few pills in one of the doughnuts');
-            items.add('spiked-doughnuts');
+            items.add('spiked doughnut');
             for (String thing in items) {
               // Called thing since item is taken
               print(thing);
@@ -37,7 +37,7 @@ void inventoryOptions() {
           } else if (item1.contains('doughnuts') &&
               item2.contains('sleeping-pills')) {
             print('You insert a few pills in one of the doughnuts');
-            items.add('spiked-doughnut');
+            items.add('spiked doughnut');
             for (String thing in items) {
               // Called thing since item is taken
               print(thing);

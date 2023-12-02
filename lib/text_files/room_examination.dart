@@ -49,3 +49,10 @@ String hallExamination() {
   There is nothing of interest here.
   ''';
 }
+String gardenExamination() {
+  return '''
+  You look around the garden.
+  There is nothing of interest, but the Dog seems happy.
+  It doesn't look like it will let you into its home though.
+  ''';
+}

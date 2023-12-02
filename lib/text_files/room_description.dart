@@ -1,4 +1,4 @@
-void entranceDescription (){
+void entranceDescription() {
   print('''
   There are three doors in this room. From the one on the left you smell food.
   The door straight ahead is grand, and seems like the main entrance to the house.
@@ -7,7 +7,7 @@ void entranceDescription (){
 ''');
 }
 
-void kitchenDescription () {
+void kitchenDescription() {
   print('''
   The kitchen is well kept, but barely used.
   This is not the kitchen of someone who makes his own cake.
@@ -32,7 +32,7 @@ void libraryDescription() {
   ''');
 }
 
-void mainHallDescription(){
+void mainHallDescription() {
   print('''
   It seems like you've arrived in the Main Hall!
   It is filled with beautiful furniture and art.
@@ -58,5 +58,12 @@ void hallDescriptionTwo() {
   going downwards to something that looks like a basement, and a door towards the
   garden. The dog seems relaxed.
   There is also the door back to the main hall
+  ''');
+}
+
+void gardenDescription() {
+  print('''
+  The garden is a mess.
+  It seems like no one has kept it nice, and there is poo everywhere.
   ''');
 }
