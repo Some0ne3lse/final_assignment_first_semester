@@ -17,7 +17,8 @@ String letter() {
 String homework() {
   return '''
   I've finally installed my cake room. To open it I will need the following:
-  Key that I keep in my secret room in the basement
+  Key that I keep in my secret room in the basement.
+  To get into my secret room, I need to insert the book from my safe into the shelf.
   My very own magnificent hand print
   And my code: cakeisawesomeyouknow
   ''';

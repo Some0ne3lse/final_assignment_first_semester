@@ -5,5 +5,5 @@ import 'package:final_assignment_first_semester/areas/storage/storage.dart';
 import 'package:final_assignment_first_semester/functions/room_options/quick_interaction/quick_interaction_dog.dart';
 import 'package:final_assignment_first_semester/areas/hall/hall.dart';
 void main () {
-  garden();
+  hall();
 }

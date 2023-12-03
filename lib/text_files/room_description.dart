@@ -73,3 +73,22 @@ void kennelDescription() {
   It is dark inside the kennel, but to your surprise, kinda cozy
   ''');
 }
+
+void basementDescriptionHiddenNotFound() {
+  print('''
+  The basement is well lit. You only see the door leading back upstairs.
+  There is a bookshelf, and some cardboard boxes lying around.
+  ''');
+}
+void basementDescriptionHiddenFound(){
+  print('''
+  The basement is well lit. There is a door to the hidden room, and one upstairs.
+  There is a bookshelf, and some cardboard boxes lying around.
+  ''');
+}
+void hiddenRoomDescription(){
+  print('''
+  The room is filled with different kinds of treasure.
+  But you're not here for gold. You're here for cake.
+  ''');
+}

@@ -62,3 +62,13 @@ String kennelExamination() {
   In the corner you find a small notebook labeled Homework.
   ''';
 }
+String basementExamination() {
+  return '''
+  You look around and see a shelf that is almost empty.
+  ''';
+}
+String hiddenRoomExamination(){
+  return '''
+  You see all the riches you can imagine, and one huge gold key.
+  ''';
+}
