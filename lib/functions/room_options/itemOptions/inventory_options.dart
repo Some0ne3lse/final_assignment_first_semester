@@ -78,6 +78,8 @@ void inventoryOptions() {
               print('The homework reads as following: ${homework()}');
             case 'book':
               print('The book contains recipes for different cakes');
+            case 'sleeping-pills':
+              print('The pills seem to be very strong');
             default:
               print('You do not have this item');
           }

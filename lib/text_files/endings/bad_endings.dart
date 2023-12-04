@@ -57,3 +57,24 @@ void givingUpOnLifeNoAxeDog(){
   enterToContinue();
   madeBy();
 }
+void runAwayFromBob () {
+  print('''
+  You try to run away, but unfortunately you run into the half open door.
+  You fall to the ground, and the last thing you see is a big burly man jumping on your face.
+  
+  The End
+  ''');
+  enterToContinue();
+  madeBy();
+}
+
+void giveUpOnLifeBob(){
+  print('''
+  You can't take it anymore. All these challenges just for cake.
+  As Bob grabs your neck with his hands, life ebbs away from you.
+  
+  The End
+  ''');
+  enterToContinue();
+  madeBy();
+}

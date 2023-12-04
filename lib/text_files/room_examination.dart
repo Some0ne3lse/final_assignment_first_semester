@@ -75,7 +75,12 @@ String hiddenRoomExamination(){
 String livingRoomExamination(){
   return '''
   You look around the living room.
-  There is a killer soundsystem, and a great TV, but nothing else of interest...
+  There is a killer sound system, and a great TV, but nothing else of interest...
   Except for the big door in the middle of one of the walls.
+  ''';
+}
+String bedRoomExamination() {
+  return '''
+  You look around the room without disturbing Bob. You find some sleeping pills.
   ''';
 }

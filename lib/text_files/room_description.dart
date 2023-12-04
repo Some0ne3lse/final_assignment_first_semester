@@ -100,3 +100,13 @@ void livingRoomDescription(){
   It has a hand print terminal, a code panel and a keyhole.
   ''');
 }
+void bedroomDescriptionBobStillAlive(){
+  print('''
+  You come into the bedroom. Bob is sleeping in his bed, with his clothes on.
+  It seems like something knocked him out.''');
+}
+void bedroomDescriptionBobDead(){
+  print('''
+  Bobs corpse lies on the floor.
+  There is blood everywhere.''');
+}

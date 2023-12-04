@@ -35,8 +35,8 @@ void quickInteractionDog() {
           happyDog();
           enterToContinue();
           tamedDog = true;
-          optionSelector = true;
           garden();
+          optionSelector = true;
           break;
         case 5:
           givingUpOnLifeDog();
