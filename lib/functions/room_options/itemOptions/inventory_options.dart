@@ -76,10 +76,14 @@ void inventoryOptions() {
               break;
             case 'homework':
               print('The homework reads as following: ${homework()}');
+            case 'gold key':
+              print('It is heavy but beautiful');
             case 'book':
               print('The book contains recipes for different cakes');
             case 'sleeping-pills':
               print('The pills seem to be very strong');
+            case 'hand':
+              print('It is bobs right hand. You hope all of this is worth it');
             default:
               print('You do not have this item');
           }

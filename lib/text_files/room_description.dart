@@ -97,7 +97,6 @@ void livingRoomDescription(){
   You enter the living room. On your left you see a normal door.
   You see light coming from there.
   Straight ahead you see a huge door.
-  It has a hand print terminal, a code panel and a keyhole.
   ''');
 }
 void bedroomDescriptionBobStillAlive(){
@@ -109,4 +108,9 @@ void bedroomDescriptionBobDead(){
   print('''
   Bobs corpse lies on the floor.
   There is blood everywhere.''');
+}
+void giantSafeDescription(){
+  print('''
+  This seems like the door to a huge safe.
+  It has a hand print terminal, a code panel and a keyhole.''');
 }
