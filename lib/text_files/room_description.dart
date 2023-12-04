@@ -92,3 +92,11 @@ void hiddenRoomDescription(){
   But you're not here for gold. You're here for cake.
   ''');
 }
+void livingRoomDescription(){
+  print('''
+  You enter the living room. On your left you see a normal door.
+  You see light coming from there.
+  Straight ahead you see a huge door.
+  It has a hand print terminal, a code panel and a keyhole.
+  ''');
+}

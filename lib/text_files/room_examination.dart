@@ -72,3 +72,10 @@ String hiddenRoomExamination(){
   You see all the riches you can imagine, and one huge gold key.
   ''';
 }
+String livingRoomExamination(){
+  return '''
+  You look around the living room.
+  There is a killer soundsystem, and a great TV, but nothing else of interest...
+  Except for the big door in the middle of one of the walls.
+  ''';
+}
