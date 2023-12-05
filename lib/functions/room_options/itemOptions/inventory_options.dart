@@ -77,6 +77,8 @@ void inventoryOptions() {
               sleepingPills();
             case 'hand':
               hand();
+            case 'spiked doughnut':
+              spikedDoughnut();
             default:
               print('You do not have this item');
           }

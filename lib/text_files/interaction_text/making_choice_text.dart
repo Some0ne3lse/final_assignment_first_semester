@@ -48,3 +48,10 @@ void bookInsertedAndHiddenOpened(){
   You insert the book, and you hear a click. The shelf moves to the side.
   ''');
 }
+
+void safeActivated (){
+  print('''
+  You insert the key, and hold the hand against the sensor.
+  Lights turn on and it asks you to enter a password:..............
+  ''');
+}

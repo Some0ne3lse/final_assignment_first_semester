@@ -55,3 +55,10 @@ void hand(){
   It is bobs right hand. You hope all of this is worth it.
   ''');
 }
+
+void spikedDoughnut() {
+  print('''
+  You have spiked this doughnut with sleeping pills.
+  I know it's difficult, but you should not eat this
+  ''');
+}

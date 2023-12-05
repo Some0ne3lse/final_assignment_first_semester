@@ -1,1 +1,1 @@
-Set<String> items = {'shoes', 'sleeping-pills', 'doughnuts'};
+Set<String> items = {};
