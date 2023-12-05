@@ -1,5 +1,5 @@
 import 'package:final_assignment_first_semester/areas/basement/basement.dart';
-import 'package:final_assignment_first_semester/areas/hidden_room/visited_rooms_hidden_room.dart';
+import 'package:final_assignment_first_semester/areas/showing_visited_rooms.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/blueprints/one_door_one_item.dart';
 import 'package:final_assignment_first_semester/lists/rooms_visited.dart';

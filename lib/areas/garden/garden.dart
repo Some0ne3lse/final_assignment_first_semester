@@ -1,4 +1,4 @@
-import 'package:final_assignment_first_semester/areas/garden/visited_rooms_garden.dart';
+import 'package:final_assignment_first_semester/areas/showing_visited_rooms.dart';
 import 'package:final_assignment_first_semester/areas/hall/hall.dart';
 import 'package:final_assignment_first_semester/areas/kennel/kennel.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
@@ -18,7 +18,7 @@ void garden() {
     twoDoorsAndDog(
       newRoom: 'kennel',
       printNoNewRooms: noNewRoomsGarden,
-      printNewRoom: kennelVisited,
+      printNewRoom: kennelVisitedGarden,
       roomExamination: gardenExamination,
       selectNewDoor: kennel,
       selectPreviousDoor: hall,

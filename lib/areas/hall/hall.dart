@@ -7,7 +7,7 @@ import 'package:final_assignment_first_semester/functions/room_options/blueprint
 import 'package:final_assignment_first_semester/functions/room_options/being_interactions/quick_interaction_dog.dart';
 import 'package:final_assignment_first_semester/lists/rooms_visited.dart';
 import 'package:final_assignment_first_semester/text_files/interaction_text/room_description.dart';
-import 'package:final_assignment_first_semester/areas/hall/visited_rooms_hall.dart';
+import 'package:final_assignment_first_semester/areas/showing_visited_rooms.dart';
 import 'package:final_assignment_first_semester/text_files/interaction_text/room_examination.dart';
 
 void hall() {
@@ -24,8 +24,8 @@ void hall() {
     secondRoom: 'garden',
     thirdRoom: 'basement',
     printNoNewRooms: noNewRoomsHall,
-    printSecondRoom: gardenVisited,
-    printThirdRoom: basementVisited,
+    printSecondRoom: gardenVisitedHall,
+    printThirdRoom: basementVisitedHall,
     printAll: allRoomsVisitedHall,
     roomExamination: hallExamination,
     selectSecondDoor: garden,

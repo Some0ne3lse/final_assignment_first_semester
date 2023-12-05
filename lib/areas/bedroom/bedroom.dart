@@ -1,4 +1,4 @@
-import 'package:final_assignment_first_semester/areas/bedroom/visited_rooms_bedroom.dart';
+import 'package:final_assignment_first_semester/areas/showing_visited_rooms.dart';
 import 'package:final_assignment_first_semester/areas/living_room/living_room.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/being_interactions/sleeping_man.dart';

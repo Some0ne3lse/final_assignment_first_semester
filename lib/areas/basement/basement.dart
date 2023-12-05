@@ -1,4 +1,4 @@
-import 'package:final_assignment_first_semester/areas/basement/visited_rooms_basement.dart';
+import 'package:final_assignment_first_semester/areas/showing_visited_rooms.dart';
 import 'package:final_assignment_first_semester/areas/hidden_room/hidden_room.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/blueprints/two_doors_one_hidden.dart';
