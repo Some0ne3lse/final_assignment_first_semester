@@ -7,13 +7,14 @@ import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/itemOptions/inventory_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 import 'package:final_assignment_first_semester/room_selectors/room_selector_two_doors.dart';
-import 'package:final_assignment_first_semester/text_files/room_examination.dart';
+import 'package:final_assignment_first_semester/text_files/interaction_text/making_choice_text.dart';
+import 'package:final_assignment_first_semester/text_files/interaction_text/room_examination.dart';
 
 void twoDoorsAndDog({
   required String newRoom,
   required Function printNoNewRooms,
   required Function printNewRoom,
-  required String roomExamination,
+  required Function roomExamination,
   required Function selectNewDoor,
   required Function selectPreviousDoor,
 }) {
@@ -26,19 +27,18 @@ void twoDoorsAndDog({
     );
     int roomOptions = nullEscapeAndConvertToInt();
     bool interactItem = items.contains('spiked doughnut');
-    switch (roomOptions){
+    switch (roomOptions) {
       case 1:
         if (sleepingDog == false) {
           if (interactItem == true) {
-            print('''$roomExamination
-          1: Give the dog the spiked doughnuts
-          2: Leave the dog
-          ''');
+            roomExamination();
+            enterToContinue();
+            print('1: Give the dog the spiked doughnuts');
+            print('2: Leave the dog');
             int itemOption = nullEscapeAndConvertToInt();
             switch (itemOption) {
               case 1:
-                print(
-                    'The dog eats the doughnut happily. After some time it falls asleep');
+                dogEatsDoughnut();
                 sleepingDog = true;
                 items.remove('spiked doughnut');
                 break;
@@ -46,10 +46,12 @@ void twoDoorsAndDog({
                 break;
             }
           } else if (interactItem == false) {
-            print(gardenExamination());
+            gardenExamination();
+            enterToContinue();
           }
-        } else if (sleepingDog == true){
+        } else if (sleepingDog == true) {
           print('There is nothing of interest, and the dog is sleeping');
+          enterToContinue();
         }
       case 2:
         selectNewDoor();

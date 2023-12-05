@@ -4,15 +4,15 @@ import 'package:final_assignment_first_semester/functions/room_options/itemOptio
 
 void oneDoorTwoItems({
   required Function printNoNewRooms,
-  required String roomExaminationAll,
-  required String roomExaminationFirstTaken,
-  required String roomExaminationSecondTaken,
+  required Function roomExaminationAll,
+  required Function roomExaminationFirstTaken,
+  required Function roomExaminationSecondTaken,
   required String itemOne,
   required String itemTwo,
   required String chooseInteractWithOne,
   required String chooseInteractWithTwo,
-  required String interactActionOne,
-  required String interactActionTwo,
+  required Function interactActionOne,
+  required Function interactActionTwo,
   required Function selectPreviousDoor,
 }) {
   bool optionSelector = false;

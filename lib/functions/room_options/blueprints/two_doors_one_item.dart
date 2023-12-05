@@ -7,10 +7,10 @@ void twoDoorsOneItem({
   required String newRoom,
   required Function printNoNewRooms,
   required Function printNewRoom,
-  required String roomExamination,
+  required Function roomExamination,
   required String item,
   required String chooseInteract,
-  required String interactAction,
+  required Function interactAction,
   required Function selectNewDoor,
   required Function selectPreviousDoor,
 }) {

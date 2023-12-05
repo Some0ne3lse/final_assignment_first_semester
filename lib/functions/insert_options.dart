@@ -1,5 +1,7 @@
 import 'dart:io';
 
+import 'package:final_assignment_first_semester/lists/items.dart';
+
 int nullEscapeAndConvertToInt() {
   String? number;
   int? parsedNumber;
@@ -30,4 +32,18 @@ String nullEscapeFromString(){
 void enterToContinue () {
   print('Press Enter to continue');
   stdin.readLineSync();
+}
+
+void printInventory(){
+  print('Your current items are:');
+  for (String item in items){
+    print(item);
+  }
+  print('');
+}
+
+void nothingOfValue() {
+  print('''
+  You find nothing else of value
+  ''');
 }

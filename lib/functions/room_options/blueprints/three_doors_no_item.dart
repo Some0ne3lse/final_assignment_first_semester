@@ -9,7 +9,7 @@ void threeDoorsNoItem({
   required Function printSecondRoom,
   required Function printThirdRoom,
   required Function printAll,
-  required String roomExamination,
+  required Function roomExamination,
   required Function selectSecondDoor,
   required Function selectThirdDoor,
   required Function selectPreviousDoor,
@@ -28,7 +28,7 @@ void threeDoorsNoItem({
     int roomOptions = nullEscapeAndConvertToInt();
     switch (roomOptions){
       case 1:
-        print(roomExamination);
+        roomExamination();
         break;
       case 2:
         selectSecondDoor();

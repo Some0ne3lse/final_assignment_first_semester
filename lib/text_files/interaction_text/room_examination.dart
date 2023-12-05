@@ -1,86 +1,86 @@
-String entranceExamination() {
-  return '''
+void entranceExamination() {
+  print( '''
   You look around the room.
   You find nothing interesting, except for a pair of shoes lying in the corner.
   They have chewing marks on them.
-  ''';
+  ''');
 }
 
-String kitchenExamination(){
-  return '''
+void kitchenExamination(){
+  print('''
   You look through the drawers and cupboards searching for something valuable,
   but all you find is a box of doughnuts.
-  ''';
+  ''');
 }
 
-String storageExaminationAll() {
-  return '''
+void storageExaminationAll() {
+  print('''
   You look around, and you find a saw hanging on the wall.
   You also see an axe in the corner.
-  ''';
+  ''');
 }
 
-String storageExaminationSawTaken() {
-  return '''
+void storageExaminationSawTaken() {
+  print('''
   You see an axe in the corner.
-  ''';
+  ''');
 }
-String storageExaminationAxeTaken() {
-  return '''
+void storageExaminationAxeTaken() {
+  print('''
   You find a saw hanging on the wall.
-  ''';
+  ''');
 }
 
-String libraryExamination() {
-  return '''
+void libraryExamination() {
+  print('''
   You see a note on the desk.
-  ''';
+  ''');
 }
 
-String mainHallExamination() {
-  return '''
+void mainHallExamination() {
+  print('''
   You look around for anything worth examining.
   After some time you find a letter.
-  ''';
+  ''');
 }
 
-String hallExamination() {
-  return '''
+void hallExamination() {
+  print('''
   There is nothing of interest here.
-  ''';
+  ''');
 }
-String gardenExamination() {
-  return '''
+void gardenExamination() {
+  print('''
   You look around the garden.
   There is nothing of interest, but the Dog seems happy.
   It doesn't look like it will let you into its home though.
-  ''';
+  ''');
 }
-String kennelExamination() {
-  return '''
+void kennelExamination() {
+  print('''
   You look around the Kennel.
   In the corner you find a small notebook labeled Homework.
-  ''';
+  ''');
 }
-String basementExamination() {
-  return '''
+void basementExamination() {
+  print('''
   You look around and see a shelf that is almost empty.
-  ''';
+  ''');
 }
-String hiddenRoomExamination(){
-  return '''
+void hiddenRoomExamination(){
+  print('''
   You see all the riches you can imagine, and one huge gold key.
-  ''';
+  ''');
 }
-String livingRoomExamination(){
-  return '''
+void livingRoomExamination(){
+  print('''
   You look around the living room.
   There is a killer sound system, and a great TV, but nothing else of interest...
   Except for the big door in the middle of one of the walls.
-  ''';
+  ''');
 }
-String bedRoomExamination() {
-  return '''
+void bedRoomExamination() {
+  print('''
   You look around the room without disturbing Bob. You find some sleeping pills.
-  ''';
+  ''');
 }

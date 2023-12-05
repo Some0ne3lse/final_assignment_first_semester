@@ -4,11 +4,11 @@ import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 import 'package:final_assignment_first_semester/text_files/endings/bad_endings.dart';
 import 'package:final_assignment_first_semester/text_files/endings/good_endings.dart';
-import 'package:final_assignment_first_semester/text_files/quick_interaction_text.dart';
+import 'package:final_assignment_first_semester/text_files/interaction_text/quick_interaction_text.dart';
 
 bool tamedDog = false;
 void quickInteractionDog() {
-  print('The dog runs toward you. What do you want to do?');
+  angryDog();
   bool optionSelector = false;
   while (optionSelector == false) {
     if (items.contains('axe') && items.contains('shoes')) {
@@ -33,6 +33,7 @@ void quickInteractionDog() {
           break;
         case 4:
           happyDog();
+          items.remove('shoes');
           enterToContinue();
           tamedDog = true;
           garden();
@@ -88,6 +89,7 @@ void quickInteractionDog() {
           break;
         case 3:
           happyDog();
+          items.remove('shoes');
           enterToContinue();
           tamedDog = true;
           garden();

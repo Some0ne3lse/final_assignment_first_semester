@@ -4,10 +4,10 @@ import 'package:final_assignment_first_semester/functions/room_options/itemOptio
 
 void onDoorOneItem({
   required Function printNoNewRooms,
-  required String roomExamination,
+  required Function roomExamination,
   required String item,
   required String chooseInteract,
-  required String interactAction,
+  required Function interactAction,
   required Function selectPreviousDoor,
 }) {
   bool optionSelector = false;

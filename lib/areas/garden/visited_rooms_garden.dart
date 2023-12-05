@@ -1,16 +1,13 @@
-void noNewRoomsGarden(){
-  print('''
-  1: Examine the Garden
-  2: Go to the small house in the corner
-  3: Go to the Hall
-  4: Look at inventory
-  ''');
+void noNewRoomsGarden() {
+  print('1: Examine the Garden');
+  print('2: Go to the small house in the corner');
+  print('3: Go to the Hall');
+  print('4: Look at inventory');
 }
+
 void kennelVisited() {
-  print('''
-  1: Examine the Garden
-  2: Go to the Kennel
-  3: Go to the Hall
-  4: Look at inventory
-  ''');
+  print('1: Examine the Garden');
+  print('2: Go to the Kennel');
+  print('3: Go to the Hall');
+  print('4: Look at inventory');
 }

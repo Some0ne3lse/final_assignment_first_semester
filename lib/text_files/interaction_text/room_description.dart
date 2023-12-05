@@ -3,8 +3,7 @@ void entranceDescription() {
   There are three doors in this room. From the one on the left you smell food.
   The door straight ahead is grand, and seems like the main entrance to the house.
   To your left is a smaller, less used door.
-  
-''');
+  ''');
 }
 
 void kitchenDescription() {
@@ -13,15 +12,13 @@ void kitchenDescription() {
   This is not the kitchen of someone who makes his own cake.
   There are two doors in here. One back to the Entrance,
   the other one smaller and old in the corner of the room.
-
-''');
+  ''');
 }
 
 void storageDescription() {
   print('''
   This area looks like a storage room of some kind.
   The only door in this area is the one back to the kitchen.
-  
   ''');
 }
 
@@ -48,7 +45,7 @@ void hallDescriptionOne() {
   You come into a hall. There is nothing interesting in here. There are stairs
   going downwards to something that looks like a basement, and a door towards the
   garden. The dog stands ready. You should not go out there unless you are ready.
-  There is also the door back to the main hall
+  There is also the door back to the main hall.
   ''');
 }
 
@@ -57,7 +54,16 @@ void hallDescriptionTwo() {
   You come into a hall. There is nothing interesting in here. There are stairs
   going downwards to something that looks like a basement, and a door towards the
   garden. The dog seems relaxed.
-  There is also the door back to the main hall
+  There is also the door back to the main hall.
+  ''');
+}
+
+void hallDescriptionThree() {
+  print('''
+  You come into a hall. There is nothing interesting in here. There are stairs
+  going downwards to something that looks like a basement, and a door towards the
+  garden. The dog is sleeping.
+  There is also the door back to the main hall.
   ''');
 }
 
@@ -70,7 +76,7 @@ void gardenDescription() {
 
 void kennelDescription() {
   print('''
-  It is dark inside the kennel, but to your surprise, kinda cozy
+  It is dark inside the kennel, but to your surprise, kinda cozy.
   ''');
 }
 
@@ -102,15 +108,18 @@ void livingRoomDescription(){
 void bedroomDescriptionBobStillAlive(){
   print('''
   You come into the bedroom. Bob is sleeping in his bed, with his clothes on.
-  It seems like something knocked him out.''');
+  It seems like something knocked him out.
+  ''');
 }
 void bedroomDescriptionBobDead(){
   print('''
   Bobs corpse lies on the floor.
-  There is blood everywhere.''');
+  There is blood everywhere.
+  ''');
 }
 void giantSafeDescription(){
   print('''
   This seems like the door to a huge safe.
-  It has a hand print terminal, a code panel and a keyhole.''');
+  It has a hand print terminal, a code panel and a keyhole.
+  ''');
 }

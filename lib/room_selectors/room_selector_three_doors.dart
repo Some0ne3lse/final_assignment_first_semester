@@ -1,4 +1,4 @@
-import 'package:final_assignment_first_semester/lists/roomsVisited.dart';
+import 'package:final_assignment_first_semester/lists/rooms_visited.dart';
 
 void roomSelectorThreeDoors({
   required String secondRoom,

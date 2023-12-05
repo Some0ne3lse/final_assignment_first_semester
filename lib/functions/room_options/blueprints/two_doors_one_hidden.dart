@@ -9,7 +9,7 @@ void twoDoorsOneHidden({
   required Function printHiddenDoorNotFound,
   required Function printNoNewRooms,
   required Function printNewRoom,
-  required String roomExamination,
+  required Function roomExamination,
   required Function selectNewDoor,
   required Function selectPreviousDoor,
 }) {

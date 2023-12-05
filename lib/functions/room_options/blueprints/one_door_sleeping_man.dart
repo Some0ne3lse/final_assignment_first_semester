@@ -4,15 +4,15 @@ import 'package:final_assignment_first_semester/functions/room_options/being_int
 import 'package:final_assignment_first_semester/functions/room_options/itemOptions/inventory_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/itemOptions/one_item_in_room.dart';
 import 'package:final_assignment_first_semester/functions/room_options/itemOptions/two_items_in_room.dart';
-import 'package:final_assignment_first_semester/text_files/room_examination.dart';
+import 'package:final_assignment_first_semester/text_files/interaction_text/room_examination.dart';
 
 void oneDoorSleepingMan({
   required Function printManAliveDescription,
   required Function printManDeadDescription,
-  required String roomExamination,
+  required Function roomExamination,
   required String item,
   required String chooseInteract,
-  required String interactAction,
+  required Function interactAction,
   required Function selectPreviousDoor,
 }) {
   bool optionSelector = false;

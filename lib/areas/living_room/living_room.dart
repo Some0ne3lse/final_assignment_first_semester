@@ -4,9 +4,9 @@ import 'package:final_assignment_first_semester/areas/living_room/visited_rooms_
 import 'package:final_assignment_first_semester/areas/main_hall/main_hall.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/blueprints/three_doors_no_item.dart';
-import 'package:final_assignment_first_semester/lists/roomsVisited.dart';
-import 'package:final_assignment_first_semester/text_files/room_description.dart';
-import 'package:final_assignment_first_semester/text_files/room_examination.dart';
+import 'package:final_assignment_first_semester/lists/rooms_visited.dart';
+import 'package:final_assignment_first_semester/text_files/interaction_text/room_description.dart';
+import 'package:final_assignment_first_semester/text_files/interaction_text/room_examination.dart';
 
 void livingRoom() {
   roomsVisited.add('livingRoom');
@@ -19,7 +19,7 @@ void livingRoom() {
     printSecondRoom: bedroomVisited,
     printThirdRoom: cakeRoomVisited,
     printAll: allRoomsVisitedLivingRoom,
-    roomExamination: livingRoomExamination(),
+    roomExamination: livingRoomExamination,
     selectSecondDoor: bedroom,
     selectThirdDoor: giantSafe,
     selectPreviousDoor: mainHall,

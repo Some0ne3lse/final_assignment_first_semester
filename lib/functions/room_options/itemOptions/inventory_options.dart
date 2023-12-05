@@ -1,7 +1,8 @@
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
+import 'package:final_assignment_first_semester/text_files/interaction_text/interact_action.dart';
 
-import '../../../text_files/notes.dart';
+import '../../../text_files/interaction_text/notes.dart';
 
 // In this code, you decide what you want to do with your inventory
 
@@ -9,10 +10,7 @@ void inventoryOptions() {
   if (items.isEmpty) {
     print('You have no items');
   } else if (items.isNotEmpty) {
-    print('Your items are:');
-    for (String item in items) {
-      print(item);
-    }
+    printInventory();
     bool optionSelector = false;
     while (optionSelector == false) {
       print('What do you want to do?');
@@ -23,67 +21,62 @@ void inventoryOptions() {
       switch (itemOptionSelector) {
         case 1:
           print('What is the first item you want to combine?');
+          print('Write your option in the console');
           String item1 = nullEscapeFromString().toLowerCase();
           print('What is the second item you want to combine?');
+          print('Write your option in the console');
           String item2 = nullEscapeFromString().toLowerCase();
           if (item1.contains('sleeping-pills') && item2.contains('doughnuts')) {
-            print('You insert a few pills in one of the doughnuts');
+            print('You insert a few pills into one of the doughnuts');
+            enterToContinue();
             items.add('spiked doughnut');
-            for (String thing in items) {
-              // Called thing since item is taken
-              print(thing);
-            }
+            printInventory();
             enterToContinue();
           } else if (item1.contains('doughnuts') &&
               item2.contains('sleeping-pills')) {
-            print('You insert a few pills in one of the doughnuts');
+            print('You insert a few pills into one of the doughnuts');
+            enterToContinue();
             items.add('spiked doughnut');
-            for (String thing in items) {
-              // Called thing since item is taken
-              print(thing);
-            }
+            printInventory();
             enterToContinue();
           } else {
             print('You cannot combine these items');
+            enterToContinue();
           }
         case 2:
           print('What do you want to examine?');
           print('Write your option in the console');
-          for (String item in items) {
-            print(item);
-          }
+          printInventory();
           String whatToExamine = nullEscapeFromString().toLowerCase();
           switch (whatToExamine) {
             case 'shoes':
-              print(
-                  'The shoes are too big for you. They have chewing marks on them');
+              shoes();
               break;
             case 'saw':
-              print('The saw is sharp. You almost cut yourself');
+              saw();
               break;
             case 'axe':
-              print('The axe is in fine condition');
+              axe();
               break;
             case 'doughnuts':
-              print(
-                  'You eat a doughnut. It tastes nice, but not as nice as your cake');
+              doughnuts();
               break;
             case 'basement note':
-              print('The note reads as following: ${basementNote()}');
+              basementNoteAction();
               break;
             case 'letter':
-              print('The letter reads as following: ${letter()}');
+              letterAction();
               break;
             case 'homework':
-              print('The homework reads as following: ${homework()}');
+              homeworkAction();
             case 'gold key':
-              print('It is heavy but beautiful');
+              goldKey();
             case 'book':
-              print('The book contains recipes for different cakes');
+              book();
             case 'sleeping-pills':
-              print('The pills seem to be very strong');
+              sleepingPills();
             case 'hand':
-              print('It is bobs right hand. You hope all of this is worth it');
+              hand();
             default:
               print('You do not have this item');
           }

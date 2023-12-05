@@ -1,5 +1,6 @@
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
+import 'package:final_assignment_first_semester/text_files/interaction_text/making_choice_text.dart';
 
 void deadMan(){
   print('Bob is dead.');
@@ -10,21 +11,15 @@ void deadMan(){
       enterToContinue();
       optionSelector = true;
     } else if (items.contains('saw')){
-      print('''
-      1: Cut off Bobs hand
-      2: Leave the poor man alone''');
+      print('1: Cut off Bobs hand');
+      print('2: Leave the poor man alone');
       int bodyOptions = nullEscapeAndConvertToInt();
       switch(bodyOptions){
         case 1:
-          print('''
-          You take your saw and cut Bobs hand off.
-          You monster''');
+          takeOffHand();
           items.add('hand');
-          print('Your current items are');
-          for (String thing in items) {
-            // Called thing since item is taken
-            print(thing);
-          }
+          enterToContinue();
+          printInventory();
           enterToContinue();
           optionSelector = true;
           break;
@@ -35,7 +30,7 @@ void deadMan(){
           print('Not a valid option');
       }
     } else {
-      print('''You can't do anything with your current inventory''');
+      print('You can\'t do anything with your current inventory');
       optionSelector = true;
     }
   }
