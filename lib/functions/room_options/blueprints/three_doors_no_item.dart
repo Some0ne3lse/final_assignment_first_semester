@@ -13,7 +13,6 @@ void threeDoorsNoItem({
   required Function selectSecondDoor,
   required Function selectThirdDoor,
   required Function selectPreviousDoor,
-
 }) {
   bool optionSelector = false;
   while (optionSelector == false) {
@@ -26,7 +25,7 @@ void threeDoorsNoItem({
       printAll: printAll,
     );
     int roomOptions = nullEscapeAndConvertToInt();
-    switch (roomOptions){
+    switch (roomOptions) {
       case 1:
         roomExamination();
         break;

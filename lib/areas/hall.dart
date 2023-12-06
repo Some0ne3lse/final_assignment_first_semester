@@ -1,7 +1,7 @@
-import 'package:final_assignment_first_semester/areas/basement/basement.dart';
-import 'package:final_assignment_first_semester/areas/garden/garden.dart';
-import 'package:final_assignment_first_semester/areas/kennel/kennel.dart';
-import 'package:final_assignment_first_semester/areas/main_hall/main_hall.dart';
+import 'package:final_assignment_first_semester/areas/basement.dart';
+import 'package:final_assignment_first_semester/areas/garden.dart';
+import 'package:final_assignment_first_semester/areas/kennel.dart';
+import 'package:final_assignment_first_semester/areas/main_hall.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/blueprints/three_doors_no_item.dart';
 import 'package:final_assignment_first_semester/functions/room_options/being_interactions/quick_interaction_dog.dart';
@@ -16,7 +16,7 @@ void hall() {
     hallDescriptionOne();
   } else if (tamedDog == true && sleepingDog == false) {
     hallDescriptionTwo();
-  } else if (sleepingDog == true){
+  } else if (sleepingDog == true) {
     hallDescriptionThree();
   }
   enterToContinue();

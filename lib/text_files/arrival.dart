@@ -1,4 +1,4 @@
-void arrivalText(){
+void arrivalText() {
   print('''
   You arrive at Bob the Burly mans house. All the lights are turned off.
   As you arrive, you notice a dog in the garden. 

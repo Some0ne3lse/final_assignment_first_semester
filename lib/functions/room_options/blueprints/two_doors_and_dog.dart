@@ -1,14 +1,15 @@
-// I wanted to make this into one function for both dog and sleeping man,
-// but I could not make the boolean transfer to different files depending
-// on what the boolean was, so I made one function for the dog, and one
-// for the man
-import 'package:final_assignment_first_semester/areas/kennel/kennel.dart';
+import 'package:final_assignment_first_semester/areas/kennel.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/itemOptions/inventory_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 import 'package:final_assignment_first_semester/room_selectors/room_selector_two_doors.dart';
 import 'package:final_assignment_first_semester/text_files/interaction_text/making_choice_text.dart';
 import 'package:final_assignment_first_semester/text_files/interaction_text/room_examination.dart';
+
+// I wanted to make this into one function for both dog and sleeping man,
+// but I could not make the boolean transfer to different files depending
+// on what the boolean was, so I made one function for the dog, and one
+// for the man
 
 void twoDoorsAndDog({
   required String newRoom,

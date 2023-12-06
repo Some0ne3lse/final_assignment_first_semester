@@ -5,7 +5,7 @@ import 'package:final_assignment_first_semester/text_files/interaction_text/inte
 import 'package:final_assignment_first_semester/text_files/interaction_text/room_description.dart';
 import 'package:final_assignment_first_semester/areas/showing_visited_rooms.dart';
 import 'package:final_assignment_first_semester/text_files/interaction_text/room_examination.dart';
-import 'package:final_assignment_first_semester/areas/entrance/entrance.dart';
+import 'package:final_assignment_first_semester/areas/entrance.dart';
 
 void library() {
   roomsVisited.add('library');

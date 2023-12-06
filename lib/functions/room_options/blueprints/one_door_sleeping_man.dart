@@ -3,8 +3,6 @@ import 'package:final_assignment_first_semester/functions/room_options/being_int
 import 'package:final_assignment_first_semester/functions/room_options/being_interactions/sleeping_man.dart';
 import 'package:final_assignment_first_semester/functions/room_options/itemOptions/inventory_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/itemOptions/one_item_in_room.dart';
-import 'package:final_assignment_first_semester/functions/room_options/itemOptions/two_items_in_room.dart';
-import 'package:final_assignment_first_semester/text_files/interaction_text/room_examination.dart';
 
 void oneDoorSleepingMan({
   required Function printManAliveDescription,
@@ -42,7 +40,7 @@ void oneDoorSleepingMan({
         default:
           print('Not a valid option');
       }
-    } else if (manDead == true){
+    } else if (manDead == true) {
       printManDeadDescription();
       int roomOptions = nullEscapeAndConvertToInt();
       switch (roomOptions) {

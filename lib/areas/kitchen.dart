@@ -5,8 +5,8 @@ import 'package:final_assignment_first_semester/lists/rooms_visited.dart';
 import 'package:final_assignment_first_semester/text_files/interaction_text/interact_action.dart';
 import 'package:final_assignment_first_semester/text_files/interaction_text/room_description.dart';
 import 'package:final_assignment_first_semester/text_files/interaction_text/room_examination.dart';
-import 'package:final_assignment_first_semester/areas/storage/storage.dart';
-import 'package:final_assignment_first_semester/areas/entrance/entrance.dart';
+import 'package:final_assignment_first_semester/areas/storage.dart';
+import 'package:final_assignment_first_semester/areas/entrance.dart';
 
 void kitchen() {
   roomsVisited.add('kitchen');

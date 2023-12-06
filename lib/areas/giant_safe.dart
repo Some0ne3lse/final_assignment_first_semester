@@ -1,4 +1,4 @@
-import 'package:final_assignment_first_semester/areas/living_room/living_room.dart';
+import 'package:final_assignment_first_semester/areas/living_room.dart';
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 import 'package:final_assignment_first_semester/lists/rooms_visited.dart';

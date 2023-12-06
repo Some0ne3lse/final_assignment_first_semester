@@ -18,7 +18,7 @@ int nullEscapeAndConvertToInt() {
   return parsedNumber;
 }
 
-String nullEscapeFromString(){
+String nullEscapeFromString() {
   String? sentence;
   while (sentence == null) {
     sentence = stdin.readLineSync();
@@ -29,14 +29,14 @@ String nullEscapeFromString(){
   return sentence;
 }
 
-void enterToContinue () {
+void enterToContinue() {
   print('Press Enter to continue');
   stdin.readLineSync();
 }
 
-void printInventory(){
+void printInventory() {
   print('Your current items are:');
-  for (String item in items){
+  for (String item in items) {
     print(item);
   }
   print('');

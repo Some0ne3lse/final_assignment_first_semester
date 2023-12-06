@@ -47,7 +47,7 @@ void badEndingMonster() {
   madeBy();
 }
 
-void givingUpOnLifeNoAxeDog(){
+void givingUpOnLifeNoAxeDog() {
   print('''
   As the dog runs towards you, you decide that a life as cruel as this is not worth it.
   It attacks you and bites you to death.
@@ -57,7 +57,8 @@ void givingUpOnLifeNoAxeDog(){
   enterToContinue();
   madeBy();
 }
-void runAwayFromBob () {
+
+void runAwayFromBob() {
   print('''
   You try to run away, but unfortunately you run into the half open door.
   You fall to the ground, and the last thing you see is a big burly man jumping on your face.
@@ -68,7 +69,7 @@ void runAwayFromBob () {
   madeBy();
 }
 
-void giveUpOnLifeBob(){
+void giveUpOnLifeBob() {
   print('''
   You can't take it anymore. All these challenges just for cake.
   As Bob grabs your neck with his hands, life ebbs away from you.

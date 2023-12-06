@@ -1,24 +1,28 @@
-void hiddenRoomNotFoundBasement(){
+void hiddenRoomNotFoundBasement() {
   print('1: Examine the room');
   print('2: Go back to the hall');
   print('3: Look at inventory');
 }
-void hiddenRoomFoundBasement(){
+
+void hiddenRoomFoundBasement() {
   print('1: Examine the room');
   print('2: Go into the hidden room');
   print('3: Go back to the hall');
   print('4: Look at inventory');
 }
+
 void visitingBedroomBobAlive() {
   print('1: Look at Bob');
   print('2: Examine the room');
   print('3: Go to the Living Room');
 }
+
 void visitingBedroomBobDead() {
   print('1: Look at Bobs body');
   print('2: Examine the room');
   print('3: Go to the Living Room');
 }
+
 void noRoomsVisitedEntrance() {
   print('1: Examine the room');
   print('2: Go through the door on the left');
@@ -82,6 +86,7 @@ void allRoomsVisitedEntrance() {
   print('4: Go to the Library');
   print('5: Look at inventory');
 }
+
 void noNewRoomsGarden() {
   print('1: Examine the Garden and Dog');
   print('2: Go to the small house in the corner');
@@ -95,6 +100,7 @@ void kennelVisitedGarden() {
   print('3: Go to the Hall');
   print('4: Look at inventory');
 }
+
 void noNewRoomsHall() {
   print('1: Examine the room');
   print('2: Go through the door leading outside');
@@ -126,16 +132,19 @@ void allRoomsVisitedHall() {
   print('4: Go to the Main Hall');
   print('5: Look at inventory');
 }
+
 void visitingHiddenRoom() {
   print('1: Examine the room');
   print('2: Go back to the Basement');
   print('3: Look at inventory');
 }
+
 void visitingKennel() {
   print('1: Examine the room');
   print('2: Go to the Garden');
   print('3: Look at inventory');
 }
+
 void noNewRoomsKitchen() {
   print('1: Examine the room');
   print('2: Go through the door in the corner');
@@ -149,11 +158,13 @@ void storageVisitedKitchen() {
   print('3: Go to the Entrance');
   print('4: Look at inventory');
 }
+
 void visitingLibrary() {
   print('1: Examine the room');
   print('2: Go to the Entrance');
   print('3: Look at inventory');
 }
+
 void noNewRoomsLivingRoom() {
   print('1: Examine the room');
   print('2: Go through the door to the left');
@@ -185,6 +196,7 @@ void allRoomsVisitedLivingRoom() {
   print('4: Go back to the Main Hall');
   print('5: Look at inventory');
 }
+
 void noNewRoomsMainHall() {
   print('1: Examine the room');
   print('2: Go through the door straight ahead');
@@ -216,6 +228,7 @@ void allRoomsVisitedMainHall() {
   print('4: Go back to the entrance');
   print('5: Look at inventory');
 }
+
 void visitingStorage() {
   print('1: Examine the room');
   print('2: Go to the Kitchen');

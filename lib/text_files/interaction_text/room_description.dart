@@ -86,38 +86,44 @@ void basementDescriptionHiddenNotFound() {
   There is a bookshelf, and some cardboard boxes lying around.
   ''');
 }
-void basementDescriptionHiddenFound(){
+
+void basementDescriptionHiddenFound() {
   print('''
   The basement is well lit. There is a door to the hidden room, and one upstairs.
   There is a bookshelf, and some cardboard boxes lying around.
   ''');
 }
-void hiddenRoomDescription(){
+
+void hiddenRoomDescription() {
   print('''
   The room is filled with different kinds of treasure.
   But you're not here for gold. You're here for cake.
   ''');
 }
-void livingRoomDescription(){
+
+void livingRoomDescription() {
   print('''
   You enter the living room. On your left you see a normal door.
   You see light coming from there.
   Straight ahead you see a huge door.
   ''');
 }
-void bedroomDescriptionBobStillAlive(){
+
+void bedroomDescriptionBobStillAlive() {
   print('''
   You come into the bedroom. Bob is sleeping in his bed, with his clothes on.
   It seems like something knocked him out.
   ''');
 }
-void bedroomDescriptionBobDead(){
+
+void bedroomDescriptionBobDead() {
   print('''
   Bobs corpse lies on the floor.
   There is blood everywhere.
   ''');
 }
-void giantSafeDescription(){
+
+void giantSafeDescription() {
   print('''
   This seems like the door to a huge safe.
   It has a hand print terminal, a code panel and a keyhole.

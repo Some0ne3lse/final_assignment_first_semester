@@ -4,7 +4,6 @@ import 'package:final_assignment_first_semester/functions/room_options/itemOptio
 import 'package:final_assignment_first_semester/room_selectors/room_selector_three_doors.dart';
 
 void threeDoorsOneItem({
-
   required String secondRoom,
   required String thirdRoom,
   required Function printNoNewRooms,

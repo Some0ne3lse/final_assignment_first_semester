@@ -2,8 +2,6 @@ import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 import 'package:final_assignment_first_semester/text_files/interaction_text/interact_action.dart';
 
-import '../../../text_files/interaction_text/notes.dart';
-
 // In this code, you decide what you want to do with your inventory
 
 void inventoryOptions() {

@@ -16,7 +16,7 @@ void givingUpOnLifeDog() {
   madeBy();
 }
 
-void youGotTheCake(){
+void youGotTheCake() {
   print('''
   The door to the giant safe opens. And there it is! In all it's glory.
   Your cake. 
