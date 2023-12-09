@@ -6,6 +6,8 @@ import 'package:final_assignment_first_semester/text_files/interaction_text/maki
 void hiddenDoor({
   required Function roomExamination,
 }) {
+  // This code is for the hidden door in the basement. If you don't have the
+  // book, you can't do anything
   if (items.contains('book')) {
     roomExamination();
     print('1: Insert book into shelf');

@@ -1,6 +1,8 @@
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/text_files/made_by.dart';
 
+// These are all the good endings you can get
+
 void givingUpOnLifeDog() {
   print('''
   As the dog runs towards you, you decide that a life as cruel as this is not worth it.

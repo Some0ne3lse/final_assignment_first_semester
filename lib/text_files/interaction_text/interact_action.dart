@@ -1,5 +1,9 @@
 import 'package:final_assignment_first_semester/text_files/interaction_text/notes.dart';
 
+
+// This is all the results from examining your items. I made this because you
+// can examine your items in both the inventory, and before you pick them up
+
 void shoes() {
   print('''
   The shoes are too big for you. They have chewing marks on them.

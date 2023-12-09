@@ -30,6 +30,8 @@ void twoDoorsAndDog({
     bool interactItem = items.contains('spiked doughnut');
     switch (roomOptions) {
       case 1:
+        // Here you have the options for what to do with the dog, depending on
+        // what items you have, and whether or not the dog is sleeping
         if (sleepingDog == false) {
           if (interactItem == true) {
             roomExamination();

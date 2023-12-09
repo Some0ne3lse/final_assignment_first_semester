@@ -10,6 +10,9 @@ import 'package:final_assignment_first_semester/text_files/interaction_text/room
 
 void garden() {
   roomsVisited.add('garden');
+  // This code starts the quick interaction with the dog when entering the
+  // Garden for the first time, or any other time where you didn't tame the
+  // dog. When the dog has been tamed, it let's you enter the Garden
   if (tamedDog == false) {
     quickInteractionDog();
   } else if (tamedDog == true) {

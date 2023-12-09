@@ -1,6 +1,7 @@
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 
 int introSelection() {
+  // This is just the first choice you have. Either start the game, or lose.
   bool validOrInvalid = false;
 
   int selected = 0;

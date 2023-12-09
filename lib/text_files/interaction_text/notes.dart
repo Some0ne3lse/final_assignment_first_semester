@@ -1,9 +1,10 @@
-// Text is String here, since I use it in text.
+// Text is String here, since I use it in text. These are the different notes
+// you can find
 
 String basementNote() {
   return ('''
-  I keep losing my key to the hidden door in the basement.
-  For now, I'll keep it in my safe. No one but me knows the code for that.
+  I finally installed the hidden room in my basement. Only my favorite book
+  will open it.
   ''');
 }
 
@@ -20,7 +21,6 @@ String homework() {
   return ('''
   I've finally installed my cake room. To open it I will need the following:
   Key that I keep in my secret room in the basement.
-  To get into my secret room, I need to insert my favorite book into the shelf.
   My very own magnificent hand print
   And my code: cakeisawesomeyouknow
   ''');

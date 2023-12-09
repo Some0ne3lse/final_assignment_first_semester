@@ -9,6 +9,8 @@ import 'package:final_assignment_first_semester/text_files/interaction_text/room
 
 void basement() {
   roomsVisited.add('basement');
+  // This if else statement is to show whether or not the player has found
+  // the hidden door in the basement
   if (hiddenDoorOpened == false) {
     basementDescriptionHiddenNotFound();
   } else {

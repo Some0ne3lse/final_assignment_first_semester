@@ -1,6 +1,9 @@
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 
+// This function is the blueprint for one item in room, so I can use it often
+// and easily
+
 void oneItemInRoom({
   required String item,
   required Function roomExamination,

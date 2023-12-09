@@ -1,5 +1,9 @@
 import 'package:final_assignment_first_semester/lists/rooms_visited.dart';
 
+// This code is to change what choices you can make in the entrance.
+// It reads the rooms_visited file, and then shows you what room you've entered
+// by taking code from showing_visited_rooms
+
 void roomSelectorEntry({
   required String firstRoom,
   required String secondRoom,

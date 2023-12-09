@@ -2,6 +2,8 @@ import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 import 'package:final_assignment_first_semester/text_files/interaction_text/making_choice_text.dart';
 
+// This is the things you can do with Bobs body when he is dead
+
 void deadMan() {
   print('Bob is dead.');
   bool optionSelector = false;

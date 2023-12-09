@@ -1,3 +1,5 @@
+// These are all the different messages you get when examining the rooms
+
 void entranceExamination() {
   print('''
   You look around the room.

@@ -12,6 +12,7 @@ import 'package:final_assignment_first_semester/text_files/interaction_text/room
 
 void hall() {
   roomsVisited.add('hall');
+  // Here the description changes, depending on whether or not you tamed the dog
   if (tamedDog == false) {
     hallDescriptionOne();
   } else if (tamedDog == true && sleepingDog == false) {

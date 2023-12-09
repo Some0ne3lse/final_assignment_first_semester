@@ -4,6 +4,20 @@ import 'package:final_assignment_first_semester/functions/room_options/being_int
 import 'package:final_assignment_first_semester/functions/room_options/itemOptions/inventory_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/itemOptions/one_item_in_room.dart';
 
+// This is the blueprint for rooms with one door, and Bob
+
+// I wanted to make this into one function for both dog and sleeping man,
+// but I could not make the boolean transfer to different files depending
+// on what the boolean was, so I made one function for the dog, and one
+// for the man
+
+// I import the function sleepingMan, so I can have all the different options
+// with alive Bob in one case
+
+// When you've killed Bob, manDead becomes true, and case 1 gives you the
+// different options you have for dealing with Bobs dead body
+
+// I also import the function for one item in the room.
 void oneDoorSleepingMan({
   required Function printManAliveDescription,
   required Function printManDeadDescription,

@@ -1,3 +1,10 @@
+// This file is all the different choices you can make in each room. It changes
+// depending on which rooms you've already visited.
+// Let's say you're in the entrance, and haven't visited any other room. Then
+// it'll show you all options as visiting a door. But if you've visited the
+// Kitchen, one of the options will be "go to the Kitchen" instead of
+// "go through the door on the left"
+
 void hiddenRoomNotFoundBasement() {
   print('1: Examine the room');
   print('2: Go back to the hall');

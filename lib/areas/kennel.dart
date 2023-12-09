@@ -10,6 +10,8 @@ import 'package:final_assignment_first_semester/text_files/interaction_text/room
 bool sleepingDog = false;
 void kennel() {
   roomsVisited.add('kennel');
+  // To enter the Kennel, dog has to be asleep. If not, it sends you back to
+  // the Garden
   if (sleepingDog == false) {
     print('The dog will not let you in here');
     enterToContinue();

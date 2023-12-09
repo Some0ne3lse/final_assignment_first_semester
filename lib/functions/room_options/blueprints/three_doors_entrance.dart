@@ -3,6 +3,11 @@ import 'package:final_assignment_first_semester/functions/room_options/itemOptio
 import 'package:final_assignment_first_semester/functions/room_options/itemOptions/one_item_in_room.dart';
 import 'package:final_assignment_first_semester/room_selectors/room_selector_entrance.dart';
 
+// This is the blueprint for the entrance. I didn't use this again, but
+// for consistency and using it as a guide for future rooms, I made it like this
+
+
+// In case 1 I import the options for one item in the room
 void threeDoorsEntrance({
   required String firstRoom,
   required String secondRoom,

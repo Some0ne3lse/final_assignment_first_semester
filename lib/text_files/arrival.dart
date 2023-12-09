@@ -1,3 +1,5 @@
+// This is just the arrival text
+
 void arrivalText() {
   print('''
   You arrive at Bob the Burly mans house. All the lights are turned off.

@@ -4,6 +4,9 @@ import 'package:final_assignment_first_semester/lists/items.dart';
 import 'package:final_assignment_first_semester/text_files/endings/bad_endings.dart';
 import 'package:final_assignment_first_semester/text_files/interaction_text/making_choice_text.dart';
 
+// These are the options you have when you examine Bob. Again, different
+// scenarios depending on your items
+
 bool manDead = false;
 void sleepingMan() {
   sleepingBob();
@@ -54,8 +57,8 @@ void sleepingMan() {
               print('Not an option');
           }
         case 3:
-          optionSelector = true;
           bedroom();
+          optionSelector = true;
           break;
         default:
           print('Not an option');
@@ -84,8 +87,8 @@ void sleepingMan() {
               print('Not an option');
           }
         case 2:
-          optionSelector = true;
           bedroom();
+          optionSelector = true;
           break;
         default:
           print('Not an option');

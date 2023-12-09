@@ -16,14 +16,20 @@ void inventoryOptions() {
       print('2: Examine your items');
       print('3: Continue your search');
       int itemOptionSelector = nullEscapeAndConvertToInt();
+      // In case 1, you can combine your items. Since you only need to combine
+      // the doughnut and sleeping-pills, every other combination gives you the
+      // You cannot combine these items message.
       switch (itemOptionSelector) {
         case 1:
+          printInventory();
           print('What is the first item you want to combine?');
           print('Write your option in the console');
           String item1 = nullEscapeFromString().toLowerCase();
           print('What is the second item you want to combine?');
           print('Write your option in the console');
           String item2 = nullEscapeFromString().toLowerCase();
+          // This if else statement is here, so it doesn't matter what order
+          // you combine the items in
           if (item1.contains('sleeping-pills') && item2.contains('doughnuts')) {
             print('You insert a few pills into one of the doughnuts');
             enterToContinue();
@@ -42,6 +48,8 @@ void inventoryOptions() {
             enterToContinue();
           }
         case 2:
+          // This is to examine your items. I made this option mostly to read
+          // the notes, and to figure out the combination method
           print('What do you want to examine?');
           print('Write your option in the console');
           printInventory();

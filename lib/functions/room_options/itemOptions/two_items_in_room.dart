@@ -1,6 +1,9 @@
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 
+// This function is the blueprint for two items in room, so I can use it often
+// and easily
+
 void twoItemsInRoom({
   required Function roomExaminationAll,
   required Function roomExaminationFirstTaken,
@@ -14,6 +17,8 @@ void twoItemsInRoom({
 }) {
   bool itemOneTaken = items.contains(itemOne);
   bool itemTwoTaken = items.contains(itemTwo);
+  // There are three different descriptions here, so it shows you what is left
+  // after taking one of the items
   if (itemOneTaken == false && itemTwoTaken == false) {
     roomExaminationAll();
     print('1: Take the $itemOne');

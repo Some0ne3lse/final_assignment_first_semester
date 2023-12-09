@@ -10,6 +10,8 @@ import 'package:final_assignment_first_semester/text_files/interaction_text/room
 
 void bedroom() {
   roomsVisited.add('bedroom');
+  // This if else is for showing two different descriptions of the room
+  // depending on whether or not the player has killed Bob
   if (manDead == false) {
     bedroomDescriptionBobStillAlive();
   } else if (manDead == true) {

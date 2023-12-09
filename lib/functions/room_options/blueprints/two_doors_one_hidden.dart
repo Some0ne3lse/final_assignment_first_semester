@@ -3,6 +3,8 @@ import 'package:final_assignment_first_semester/functions/room_options/itemOptio
 import 'package:final_assignment_first_semester/functions/room_options/itemOptions/inventory_options.dart';
 import 'package:final_assignment_first_semester/room_selectors/room_selector_two_doors.dart';
 
+// This is the blueprint for a room with 2 doors, in which one is hidden.
+
 bool hiddenDoorOpened = false;
 void twoDoorsOneHidden({
   required String newRoom,
@@ -16,6 +18,9 @@ void twoDoorsOneHidden({
   bool optionSelector = false;
   while (optionSelector == false) {
     if (hiddenDoorOpened == false) {
+      // There are no items in here, but one hidden door. case 1 sends you to
+      // the hiddenDoor function, where you can insert the book, and then it
+      // opens the hidden door
       printHiddenDoorNotFound();
       int roomOptions = nullEscapeAndConvertToInt();
       switch (roomOptions) {

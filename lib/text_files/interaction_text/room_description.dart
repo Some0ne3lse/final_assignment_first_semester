@@ -1,3 +1,5 @@
+// These are all the descriptions of the different rooms
+
 void entranceDescription() {
   print('''
   There are three doors in this room. From the one on the left you smell food.

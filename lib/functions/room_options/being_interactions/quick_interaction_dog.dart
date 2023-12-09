@@ -4,7 +4,11 @@ import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/lists/items.dart';
 import 'package:final_assignment_first_semester/text_files/endings/bad_endings.dart';
 import 'package:final_assignment_first_semester/text_files/endings/good_endings.dart';
-import 'package:final_assignment_first_semester/text_files/interaction_text/quick_interaction_text.dart';
+import 'package:final_assignment_first_semester/text_files/interaction_text/making_choice_text.dart';
+
+// When you enter the Garden for the first time, this is what comes up.
+// There are 4 different scenarios depending on which items you have.
+// Until you tame the dog, this will always show up when you enter the Garden
 
 bool tamedDog = false;
 void quickInteractionDog() {
