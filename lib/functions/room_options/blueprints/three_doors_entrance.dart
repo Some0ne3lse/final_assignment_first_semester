@@ -1,6 +1,6 @@
 import 'package:final_assignment_first_semester/functions/insert_options.dart';
 import 'package:final_assignment_first_semester/functions/room_options/itemOptions/inventory_options.dart';
-import 'package:final_assignment_first_semester/functions/room_options/itemOptions/one_item_in_room.dart';
+import 'package:final_assignment_first_semester/functions/room_options/itemOptions/shoes_item_in_room.dart';
 import 'package:final_assignment_first_semester/room_selectors/room_selector_entrance.dart';
 
 // This is the blueprint for the entrance. I didn't use this again, but
@@ -20,10 +20,6 @@ void threeDoorsEntrance({
   required Function printFirstAndThird,
   required Function printSecondAndThird,
   required Function printAll,
-  required Function roomExamination,
-  required String item,
-  required String chooseInteract,
-  required Function interactAction,
   required Function selectFirstDoor,
   required Function selectSecondDoor,
   required Function selectThirdDoor,
@@ -45,13 +41,12 @@ void threeDoorsEntrance({
     );
     int roomOptions = nullEscapeAndConvertToInt();
     switch (roomOptions) {
+      // In case 1 I didn't use oneItemInRoom, since it activates a boolean,
+      // and I couldn't make the boolean move across files. Therefore it has a
+      // separate class. This is so the shoes don't show up after giving them to
+      // the dog
       case 1:
-        oneItemInRoom(
-          item: item,
-          roomExamination: roomExamination,
-          chooseInteract: chooseInteract,
-          interactAction: interactAction,
-        );
+        shoesItemInRoom();
         break;
       case 2:
         selectFirstDoor();
